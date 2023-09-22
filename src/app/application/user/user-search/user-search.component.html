@@ -1,0 +1,51 @@
+<section class="container mt-5">
+  <h1 class="title-screen-search">{{ 'USER.TITLE_CONSULT' | translate }}</h1>
+
+  <form [formGroup]="form" (ngSubmit)="search()">
+
+    <div class="justify-content-center">
+      <button id="filter-new-user" type="button" class="btn btn-primary"
+        tooltip="{{ 'CRUD.TOOLTIP_CREATE_NEW' | translate }}" routerLink="/app/user/new">{{ 'CRUD.NEW' | translate
+        }}</button>
+    </div>
+
+    <div class="input-group mb-3" style="margin-top: 8px;">
+      <input id="filter-user-name" type="text" class="form-control"
+        placeholder="{{ 'USER.USER_LABEL_FILTER' | translate }}" aria-describedby="basic-addon2"
+        formControlName="name">
+      <div class="input-group-append">
+        <button id="filter-consult-user" class="btn btn-primary" tooltip="{{ 'CRUD.TOOLTIP_FILTER' | translate }}"
+          type="submit"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" class="column-action-crud-header">{{ 'CRUD.ACTION' | translate }}</th>
+            <th scope="col">{{ 'USER.SEARCH_COLUMN_NAME' | translate }}</th>
+            <th scope="col">{{ 'USER.SEARCH_COLUMN_EMAIL' | translate }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let entity of entities ">
+            <td>
+              <div class="column-action-crud-body" *ngIf="entity.id > 0">
+                <a id="action-update-user" tooltip="{{ 'CRUD.ACTION_UPDATE' | translate }}"
+                  [routerLink]="['/app/user', entity.id]"><i class="fa fa-edit"></i></a>
+              </div>
+            </td>
+            <td id="column-user-name" tooltip="{{ 'USER.LABEL_NAME' | translate }}">{{ entity.name }}</td>
+            <td id="column-user-email" tooltip="{{ 'USER.LABEL_EMAIL' | translate }}">{{ entity.email }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <app-pagination-table [page]="page" (paginationEvent)=changePage($event) style="width: 100%">
+      </app-pagination-table>
+    </div>
+
+  </form>
+
+  <app-form-debug [form]="form"></app-form-debug>
+</section>

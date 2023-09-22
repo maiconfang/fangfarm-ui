@@ -1,0 +1,383 @@
+{
+	"NAVBAR":{
+		"NAVBAR_ITEM_1": "HOME",
+		"NAVBAR_ITEM_2": "SOBRE",
+		"NAVBAR_ITEM_3": "PROJETOS",
+		"NAVBAR_ITEM_4": "CONTATO",
+		"NAVBAR_LANGUAGE" :"Idioma"
+	},
+
+	"HOME": {
+	  "APRESENTATION": "Olá! Meu nome é Maicon Fang e sou Desenvolvedor Java, Angular CLI e Analista de Testes. ",
+	  "ABSTRACT": "Sou Desenvolvedor de Software com mais de 3 anos de experiência e já trabalhei com tecnologias como Angular, Java, MySQL, SQL Server e Postgresql. Também estou familiarizado com o HP Quality Center, Selenium Web Driver, Oracle, JUnit e HTML. Trabalhei com desenvolvimento front-end e back-end, construção e implantação de software e solução de problemas. Sou Bacharel em Sistemas de Informação e Pós-Graduado em Engenharia de Software. Considero-me uma pessoa dedicada, comunicativa e extrovertida."
+	},
+
+	"ABOUT": {
+		"ABOUTMETAB": "Sobre Mim",
+		"SKILLSTAB": "Habilidades",
+		"EXPIRIENCETAB": "Experiência",
+		"FORMATIONTAB": "Formação",
+		"LANGUAGESTAB": "Idiomas",
+		"COURSESTAB": "Cursos",
+		"ABOUTMETEXT": "Sou Desenvolvedor de Software com mais de 3 anos de experiência e já trabalhei com tecnologias como Angular, Java, MySQL, SQL Server e Postgresql. Também estou familiarizado com o HP Quality Center, Selenium WebDriver, Oracle, JUnit e HTML. Trabalhei com desenvolvimento front-end e back-end, construção e implantação de software e solução de problemas. Sou graduado em Sistemas de Informação e pós-graduado em Engenharia de Software. Considero-me uma pessoa dedicada, comunicativa e extrovertida",
+		"SKILLSTEXT": " Programação Orientado a Objeto",
+		"EXPERIENCETEXT_LINE_TITLE_1": "Analista de Testes - Velti Tecnologia. 2014 - 2019",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.1": "Analista de testes",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.2": "Testes de automação usando Selenium WebDriver",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.3": "Criação e execução de cenários de testes",
+		"EXPERIENCETEXT_LINE_TITLE_2": "Software Tester - M2sys Tecnologia e Serviços S/A. 2013 - 2014",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_2.1": "Análises de Testes Realizados principalmente direcionados ao Sistema Bancário HSBC",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_2.2": "Elaboração e execução de testes manuais",
+		"EXPERIENCETEXT_LINE_TITLE_3": "Software Developer - NTT DATA Business Solutions Brasil. 2020 - 2022",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.1": "Desenvolvimento e manutenção de sistemas usando Angular JS, HTML e CSS",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.2": "Desenvolvimento e manutenção de sistemas usando Java",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.3": "Acesso e uso de dados com API REST, serviços SOAP e também protocolo OData",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.4": "Compilação e implantação de software usando Jira e Bamboo",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.5": "Verificação de bancos de dados e criação tabelas e visualizadores usando bancos de dados MySQL, SQL Server e PostgreSQL",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.6": "Apoiar a melhoria contínua e a adoção das melhores práticas treinando colegas de trabalho",
+
+
+		"FORMATIONTEXT_LINE_TITLE_1": "Universidade Federal do Paraná 2013 - 2014" ,
+		"FORMATIONTEXT_DESCRIPTION_1.1": "Pós-Graduação em Engenharia de Software ",
+		"FORMATIONTEXT_LINE_TITLE_2": "União Dinâmica de Faculdades Cataratas 2006 - 2010" ,
+		"FORMATIONTEXT_DESCRIPTION_2.1": "Bacharel em Sistemas de Informação",
+
+		"LANGUAGESTEXT_LINE_TITLE_1": "Inglês",
+		"LANGUAGESTEXT_DESCRIPTION_1.1": "Avançado",
+		"LANGUAGESTEXT_LINE_TITLE_2": "Espanhol",
+		"LANGUAGESTEXT_DESCRIPTION_2.1": "Fluente",
+		"LANGUAGESTEXT_LINE_TITLE_3": "Português",
+		"LANGUAGESTEXT_DESCRIPTION_3.1": "Nativo",
+
+		"COURSESTEXT_LINE_1": "Especialista Spring REST, 240 horas, na Algaworks",
+		"COURSESTEXT_LINE_2": "Fullstack Angular e Spring, 120 horas, na Algaworks",
+		"COURSESTEXT_LINE_3": "Java e Orientação a Objetos, 22 horas, na Algaworks"
+	},
+
+	"PROJECT": {
+		"PROJECT_NAME_TITLE_1": "Controle de Chamados",
+		"PROJECT_DESCRIPTION_1.1": "Em parceria com alguns colegas criei um sistema onde utilizei no Banck-End a linguagem Java e o conceito REST API e no Front-End, Angular CLI com Bootstrap. Segue abaixo como criamos o projeto de maneira geral:",
+		"PROJECT_DESCRIPTION_1.2": "Uma vez por semana nos reuníamos pessoalmente ou remotamente para discutir o que foi feito e o que poderia ser feito;",
+		"PROJECT_DESCRIPTION_1.3": "As atividades eram criadas e documentadas no Jira;",
+		"PROJECT_DESCRIPTION_1.4": "Após conclusão da atividade era feito o commit em braço;",
+		"PROJECT_DESCRIPTION_1.5": "Após uma certa quantidade de atividade concluídas um integrante fazia o merge com o Master;",
+		"PROJECT_DESCRIPTION_1.6": "Quando uma nova atividade era desenvolvida, era criado um braço a partir do master;",
+		"PROJECT_DESCRIPTION_1.7": "Para o versionamento de código utilizamos GIT.",
+		"PROJECT_NAME_SUB_TITLE_1": "Front-End",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.1": "O sistema foi criado em componentização, com tela de consulta e de cadastro;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.2": "Algumas validações como CNPJ e CPF foram implementadas no Front-End;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.3": "A integração do Front-End e Back-End foi feita com JSON, por exemplo, o Font-End fazia uma solicitação com GET e a API devolvia o resultado em JSON;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.4": "Também utilizamos o conceito de orientação a objetos para criação das classes e componentes.",
+		"PROJECT_NAME_SUB_TITLE_2": "Back-End",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.1": "Foi criado em MVC e cada camada era responsável por determinada ação;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.2": "Aqui também utilizamos orientação a objetos para criação das classes e funcionalidades;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.3": "Foi utilizado o JPA para integração com banco de dados;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.4": "Utilizamos o Flyway para gerenciamento das tabelas do banco de dados.",
+
+		"PROJECT_NAME_TITLE_2": "FangFarm",
+		"PROJECT_DESCRIPTION_2.1": "FangFarm foi desenvolvido usando as seguintes ferramentas Spring Boot, Java, REST API e MySQL no Back-End e Angular CLI no Front-End." ,
+		"PROJECT_DESCRIPTION_2.2": "O objetivo desse projeto é auxiliar no gerenciamento de uma fazenda.",
+		"PROJECT_DESCRIPTION_2.3": "Ele pode ser acessado clicando na aba “LOGIN” e depois no botão entrar, pode demorar até 40 segundos para ter acesso ao sistema pois está hospedado de forma gratuita no Heroku server.",
+		"PROJECT_DESCRIPTION_2.4": "Veja mais (API):",
+		"PROJECT_DESCRIPTION_2.5": "Veja mais (Front-end):"
+	},
+
+	"CONTACT": {
+		"CONTACT_TITLE": "Contatos:",
+		"CONTACT_DESCRIPTION_1.1": "maicon.fang@gmail.com",
+		"CONTACT_DESCRIPTION_1.2": "https://www.linkedin.com/in/maicon-alexander-illes-fang-4673242a/",
+		"CONTACT_DESCRIPTION_1.3": "https://github.com/maiconfang"
+	},
+
+	"LOGIN": {
+		"ACCESS_SYSTEM": "Entrar no Sistema",
+		"LBL_LOGIN": "Login",
+		"LBL_PASSWORD": "Senha",
+		"REQUIRED_LOGIN": "O login",
+		"REQUIRED_PASSWORD": "A senha",
+		"REMEMBER_ME": "Lembre-me",
+		"ENTER": "Entrar",
+		"FORGOT_PASSWORD": "Esqueci minha senha"
+	},
+
+	"FORM_VALIDATIONS": {
+		"REQUIRED": " é obrigatório",
+		"MIN_LENGTH": " precisa ter no mínimo ",
+		"MAX_LENGTH":  " pode ter no máximo ",
+		"CHARACTERS": " caracteres",
+		"EMAIL": " precisa ter o @"
+	},
+
+	"NAV_BAR": {
+		"SYSTEM_NAME": "Fazenda Fang",
+		"OPTION": "Opções",
+		"PROFILE": " Perfil",
+		"SETTINGS": " Configurações",
+		"LOGOUT": " Sair"
+	},
+
+	"SIDE_BAR": {
+		"MODEL" : "Modelo",
+		"STATE": "Estado",
+		"CITY" : "Cidade",
+		"EMPLOYEE" : "Colaborador",
+		"GROUP" : "Grupo",
+		"GROUP_PERMISSION" : "Grupo Permissão",
+		"USER" : "Usuário",
+		"BRAND" : "Marca",
+		"VEHICLE" : "Veículo",
+		"SEE_POSTS": "Ver Registros",
+		"ADD_MODEL": "Adicionar Modelo",
+		"ADD_STATE": "Adicionar Estado",
+		"ADD_CITY": "Adicionar Cidade",
+		"ADD_EMPLOYEE": "Adicionar Colaborador",
+		"ADD_GROUP": "Adicionar Grupo",
+		"ADD_GROUP_PERMISSION": "Adicionar Grupo Permissão",
+		"ADD_USER": "Adicionar Usuário",
+		"ADD_BRAND": "Adicionar Marca",
+		"ADD_VEHICLE": "Adicionar Veículo"
+	},
+
+	"CRUD": {
+		"SAVE" : "Salvar",
+		"BACK": "Voltar para pesquisa",
+		"NEW": "Criar registro",
+		"EXPORT": "Exportar",
+		"IMPORT": "Importar",
+		"ACTION": "Ações",
+		"ACTION_UPDATE": "Atualizar",
+		"ACTION_REMOVE": "Remover",
+		"TOOLTIP_FILTER": "Consultar registros",
+		"TOOLTIP_CREATE_NEW": "Criar novo registro",
+		"TOOLTIP_SAVE": "Salvar registro",
+		"TOOLTIP_BACK": "Voltar para pesquisa",
+		"TOOLTIP_ERASER": "Limpar campos",
+		"MSG_CONFIRM_REMOVE": "Deseja realmente excluir ",
+		"MSG_CONFIRM_REMOVE_YES": "Sim",
+		"MSG_CONFIRM_REMOVE_NO": "Não",
+		"MSG_SUCCESS_REMOVE": "Excluído com sucesso",
+		"MSG_SUCCESS_CREATED": "Criado com sucesso",
+		"MSG_SUCCESS_UPDATED": "Atualizado com sucesso"
+	},
+
+	"MODEL": {
+		"SEARCH_COLUMN_NAME": "Modelo",
+		"MODEL_LABEL_FILTER": "Nome do modelo",
+		"LABEL_NAME": "Nome do modelo",
+		"TITLE_CONSULT": "Consultar Modelo",
+		"TITLE_EDIT": "Edição do Modelo",
+		"TITLE_NEW": "Novo Modelo"
+	},
+
+	"USER": {
+		"SEARCH_COLUMN_NAME": "Usuário",
+		"SEARCH_COLUMN_EMAIL": "Login / E-mail",
+		"USER_LABEL_FILTER": "Nome do usuário",
+		"LABEL_NAME": "Nome do usuário",
+		"LABEL_EMAIL": "E-mail do usuário",
+		"LABEL_PASSWORD": "Senha do usuário",
+		"TITLE_CONSULT": "Consultar Usuário",
+		"TITLE_EDIT": "Edição do Usuário",
+		"TITLE_NEW": "Novo Usuário"
+	},
+
+	"STATE": {
+		"SEARCH_COLUMN_NAME": "Estado",
+		"SEARCH_COLUMN_FS": "Sigla do estado",
+		"STATE_LABEL_FILTER": "Nome do estado",
+		"LABEL_NAME": "Nome do estado",
+		"LABEL_FS": "Sigla do estado",
+		"TITLE_CONSULT": "Consultar Estado",
+		"TITLE_EDIT": "Edição do Estado",
+		"TITLE_NEW": "Novo Estado",
+		"TOOLTIP_STATE": "Nome do estado",
+		"TOOLTIP_FS": "Sigla do estado"
+	},
+
+	"CITY": {
+		"SEARCH_COLUMN_NAME": "Cidade",
+		"SEARCH_COLUMN_STATE": "Estado",
+		"CITY_LABEL_FILTER": "Nome da cidade",
+		"STATE_LABEL_FILTER": "Nome do estado",
+		"LABEL_NAME": "Nome da cidade",
+		"LABEL_STATE": "Estado",
+		"LABEL_STATE_PLACE_HOLDER": "Digite o nome do estado",
+		"TITLE_CONSULT": "Consultar Cidade",
+		"TITLE_EDIT": "Edição da Cidade",
+		"TITLE_NEW": "Nova Cidade",
+		"TOOLTIP_CITY": "Nome da cidade",
+		"TOOLTIP_STATE": "Nome do estado"
+	},
+
+	"GROUP": {
+		"SEARCH_COLUMN_NAME": "Grupo",
+		"GROUP_LABEL_FILTER": "Nome do grupo",
+		"LABEL_NAME": "Nome do grupo",
+		"TITLE_CONSULT": "Consultar Grupo",
+		"TITLE_EDIT": "Edição do Grupo",
+		"TITLE_NEW": "Novo Grupo",
+		"TOOLTIP_GROUP": "Nome do grupo"
+	},
+
+	"EMPLOYEE": {
+		"SEARCH_COLUMN_NAME": "Colaborador",
+		"SEARCH_COLUMN_RG": "RG",
+		"SEARCH_COLUMN_CPF": "CPF",
+		"EMPLOYEE_LABEL_FILTER": "Nome do colaborador",
+		"LABEL_NAME": "Nome",
+		"LABEL_RG": "RG",
+		"LABEL_CPF": "CPF",
+		"LABEL_ZIP": "CEP",
+		"LABEL_TYPE": "Logradouro",
+		"LABEL_NUMBER": "Número",
+		"LABEL_COMPLEMENT": "Complemento",
+		"LABEL_BLOCK": "Bairro",
+		"TITLE_CONSULT": "Consultar Colaborador",
+		"TITLE_EDIT": "Edição do Colaborador",
+		"TITLE_NEW": "Novo Colaborador",
+		"TOOLTIP_EMPLOYEE": "Nome do colaborador",
+		"TOOLTIP_RG": "RG do colaborador",
+		"TOOLTIP_CPF": "CPF do colaborador",
+		"LABEL_CITY": "Cidade",
+		"TOOLTIP_CITY": "Nome da cidade"
+	},
+
+	"BRAND": {
+		"SEARCH_COLUMN_NAME": "Marca",
+		"SEARCH_COLUMN_MODEL": "Modelo",
+		"BRAND_LABEL_FILTER": "Nome da marca",
+		"MODEL_LABEL_FILTER": "Nome do modelo",
+		"LABEL_NAME": "Nome da marca",
+		"LABEL_MODEL": "Modelo",
+		"LABEL_MODEL_PLACE_HOLDER": "Digite o nome do modelo",
+		"TITLE_CONSULT": "Consultar Marca",
+		"TITLE_EDIT": "Edição da Marca",
+		"TITLE_NEW": "Nova Marca",
+		"TOOLTIP_BRAND": "Nome da marca",
+		"TOOLTIP_MODEL": "Nome do modelo"
+	},
+
+	"VEHICLE": {
+		"SEARCH_COLUMN_COLOR": "Cor",
+		"SEARCH_COLUMN_YEAR": "Ano",
+		"SEARCH_COLUMN_FUEL": "Combustível",
+		"SEARCH_COLUMN_DESCRIPTION": "Descrição",
+		"SEARCH_COLUMN_LICENSE_PLATE": "Placa",
+		"SEARCH_COLUMN_BRAND": "Marca",
+		"COLOR_LABEL_FILTER": "Cor do veículo",
+		"LICENSE_PLATE_LABEL_FILTER": "Placa do veículo",
+		"BRAND_LABEL_FILTER": "Nome da marca",
+		"LABEL_COLOR": "Cor",
+		"LABEL_LICENSE_PLATE": "Placa",
+		"LABEL_YEAR": "Ano",
+		"LABEL_FUEL": "Combustível",
+		"LABEL_DESCRIPTION": "Descrição",
+		"LABEL_BRAND": "Marca",
+		"LABEL_BRAND_PLACE_HOLDER": "Digite o nome da marca",
+		"TITLE_CONSULT": "Consultar Veículo",
+		"TITLE_EDIT": "Edição do Veículo",
+		"TITLE_NEW": "Novo Veículo",
+		"TOOLTIP_COLOR": "Cor do veículo",
+		"TOOLTIP_YEAR": "Ano do veículo",
+		"TOOLTIP_FUEL": "Combustível do veículo",
+		"TOOLTIP_DESCRIPTION": "Descrição do veículo",
+		"TOOLTIP_LICENSE_PLATE": "Placa do veículo",
+		"TOOLTIP_BRAND": "Nome da marca"
+	},
+
+	"PAGINATOR": {
+		"BACK": "Voltar",
+		"NEXT": "Avançar"
+	},
+
+	"INTERCEPTOR":{
+		"STATUS_400": "Usuário ou senha inválido",
+		"STATUS_401": "Aplicação sem permição de acesso",
+		"TOKEN_EXPIRED": "Sessão expirada",
+		"FULL_AUTHENTICATION": "Aplicação sem permição de acesso",
+		"STATUS_404": "Recurso não encontrado",
+		"STATUS_405": "Método não permitido",
+		"STATUS_500": "Erro ao processar sua requisição",
+		"STATUS_DEFAULT": "Servidor não encontrado"
+	},
+
+	"FARM_STATE_SELECT": {
+		"BUTTON_SELECT_STATE": "Selecione o Estado",
+		"TOOLTIP_BUTTON_SELECT_STATE": "Selecione o estado",
+		"TITLE": "Lista de Estados",
+		"LABEL_STATE": "Nome do estado",
+		"TOOLTIP_BUTTON_FILTER": "Consultar estado",
+		"SEARCH_COLUMN_ID": "Código",
+		"SEARCH_COLUMN_NAME": "Estado",
+		"SEARCH_COLUMN_FS": "UF",
+		"BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_BUTTON_SELECT": "Selecione o estado",
+		"TOOLTIP_ID": "Código do estado",
+		"TOOLTIP_NAME": "Nome do estado",
+		"TOOLTIP_FS": "UF",
+		"PLACE_HOLDER_NAME": "Nome do estado"
+	},
+
+	"FARM_CITY_SELECT": {
+		"BUTTON_SELECT_CITY": "Selecione uma Cidade",
+		"TOOLTIP_BUTTON_SELECT_CITY": "Selecione a cidade",
+		"TITLE": "Lista de Cidades",
+		"LABEL_CITY": "Nome da cidade",
+		"TOOLTIP_BUTTON_FILTER": "Consultar cidade",
+		"TOOLTIP_BUTTON_SELECT": "Selecione uma cidade",
+		"SEARCH_COLUMN_ID": "Código",
+		"SEARCH_COLUMN_NAME": "Cidade",
+		"BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_ID": "Código da cidade",
+		"TOOLTIP_NAME": "Nome da cidade",
+		"PLACE_HOLDER_NAME": "Nome da cidade"
+	},
+
+	"FARM_MODEL_SELECT": {
+		"BUTTON_SELECT_MODEL": "Selecione um Modelo",
+		"TOOLTIP_BUTTON_SELECT_MODEL": "Selecione um modelo",
+		"TITLE": "Lista de Modelos",
+		"LABEL_MODEL": "Nome do modelo",
+		"TOOLTIP_BUTTON_FILTER": "Consultar modelo",
+		"TOOLTIP_BUTTON_SELECT": "Selecione um modelo",
+		"SEARCH_COLUMN_ID": "Código",
+		"SEARCH_COLUMN_NAME": "Modelo",
+		"BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_ID": "Código do modelo",
+		"TOOLTIP_NAME": "Nome do modelo",
+		"PLACE_HOLDER_NAME": "Nome do modelo"
+	},
+
+	"FARM_BRAND_SELECT": {
+		"BUTTON_SELECT_BRAND": "Selecione uma Marca",
+		"TOOLTIP_BUTTON_SELECT_BRAND": "Selecione a marca",
+		"TITLE": "Lista de Marcas",
+		"LABEL_BRAND": "Nome da marca",
+		"TOOLTIP_BUTTON_FILTER": "Consultar marca",
+		"TOOLTIP_BUTTON_SELECT": "Selecione uma marca",
+		"SEARCH_COLUMN_ID": "Código",
+		"SEARCH_COLUMN_NAME": "Marca",
+		"BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_BUTTON_CLOSE": "Fechar",
+		"TOOLTIP_ID": "Código da marca",
+		"TOOLTIP_NAME": "Nome da marca",
+		"PLACE_HOLDER_NAME": "Nome da marca"
+	},
+
+	"GROUP_PERMISSION": {
+		"SEARCH_COLUMN_NAME": "Grupo Permissão",
+		"GROUP_PERMISSION_LABEL_FILTER": "Nome do grupo permissão",
+		"LABEL_NAME": "Nome do grupo permissão",
+		"TITLE_CONSULT": "Consultar grupo permissão",
+		"TITLE_EDIT": "Edição do grupo permissão",
+		"TITLE_NEW": "Novo grupo permissão",
+		"GROUP_PERMISSION_LABEL_GROUP": "Grupo",
+		"GROUP_PERMISSION_SELECT_GROUP": "Selecione um grupo"
+	}
+
+
+}
+  

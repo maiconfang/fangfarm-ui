@@ -1,0 +1,383 @@
+{
+	"NAVBAR":{
+		"NAVBAR_ITEM_1": "HOME",
+		"NAVBAR_ITEM_2": "ABOUT",
+		"NAVBAR_ITEM_3": "PROJECTS",
+		"NAVBAR_ITEM_4": "CONTACT",
+		"NAVBAR_LANGUAGE" :"Language"
+	},
+
+	"HOME": {
+	  "APRESENTATION": "Hi, my name is Maicon Fang and I am a Software Developer (Java, Angular CLI) and a Test Analyst.",
+	  "ABSTRACT": "I am a Software Developer with more than 3 years of experience and I have worked with technologies such as Angular, Java, MySQL, SQL Server, and Postgresql. I am also familiar with HP Quality Center, Selenium Web Driver, Oracle, JUnit, and HTML. I have worked with front-end and back-end development, software build and deploy, and troubleshooting. I hold a Bachelor’s Degree in Information Systems and a Post-Graduation in Soft ware Engineering. I consider myself a dedicated, communicative, and outgoing person."
+	},
+
+	"ABOUT": {
+		"ABOUTMETAB": "About Me",
+		"SKILLSTAB": "Skills",
+		"EXPIRIENCETAB": "Experience",
+		"FORMATIONTAB": "Formation",
+		"LANGUAGESTAB": "Languages",
+		"COURSESTAB": "Courses",
+		"ABOUTMETEXT": "I am a Software Developer with more than 3 years of experience and I have worked with technologies such as Angular, Java, MySQL, SQL Server, and Postgresql. I am also familiar with HP Quality Center, Selenium WebDriver, Oracle, JUnit, and HTML. I have worked with front-end and back-end development, software build and deploy, and troubleshooting. I hold a Bachelor’s Degree in Information Systems and a Post-Graduation in Software Engineering. I consider myself a dedicated, communicative and outgoing person", 
+		"SKILLSTEXT": "Object-oriented Programming",
+		"EXPERIENCETEXT_LINE_TITLE_1": "Test Analyst - Velti Tecnologia. 2014 - 2019",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.1": " Performed Test Analyses with JUnit and JMeter",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.2": " Worked with Test Automation using Selenium WebDriver",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_1.3": "Created and maintained the test repository, including test suites and test cases",
+		"EXPERIENCETEXT_LINE_TITLE_2": "Software Tester - M2sys Tecnologia e Serviços S/A. 2013 - 2014",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_2.1": "Performed Test Analyses mainly directed to HSBC Bank System",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_2.2": "Elaborated and executed manual tests",
+		"EXPERIENCETEXT_LINE_TITLE_3": "  Software Developer Java and Angular - NTT DATA Business Solutions Brazil. 2020 - 2022",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.1": "Develop and maintain front-end applications using Angular JS, HTML, and CSS",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.2": "Develop and maintain back-end applications using Java",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.3": "Access and use data with REST API, SOAP services, and also OData protocol",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.4": "Software build and deploy using Jira and Bamboo",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.5": "Check databases and create tables and viewers using MySQL, SQL Server and PostgreSQL databases",
+		"EXPERIENCETEXT_LINE_DESCRIPTION_3.6": "Support continuous improvement and adoption of best practices by training coworkers",
+
+		"FORMATIONTEXT_LINE_TITLE_1": "Federal University of Paraná 2013 - 2014" ,
+		"FORMATIONTEXT_DESCRIPTION_1.1": "Post-Graduation in Software Engineering",
+		"FORMATIONTEXT_LINE_TITLE_2": "Dynamic Union of Colleges Cataratas 2006 - 2010" ,
+		"FORMATIONTEXT_DESCRIPTION_2.1": "Bachelor's Degree in Information Systems",
+
+		"LANGUAGESTEXT_LINE_TITLE_1": "English",
+		"LANGUAGESTEXT_DESCRIPTION_1.1": "Advanced",
+		"LANGUAGESTEXT_LINE_TITLE_2": "Spanish",
+		"LANGUAGESTEXT_DESCRIPTION_2.1": "Fluent",
+		"LANGUAGESTEXT_LINE_TITLE_3": "Portuguese",
+		"LANGUAGESTEXT_DESCRIPTION_3.1": "Native",
+
+		"COURSESTEXT_LINE_1": "Spring REST Specialist, 240 hours, at Algaworks",
+		"COURSESTEXT_LINE_2": "Angular and Spring Fullstack, 120 hours, at Algaworks",
+		"COURSESTEXT_LINE_3": "Java and Object-oriented, 22 hours, at Algaworks"
+	},
+
+	  
+	"PROJECT": {
+		"PROJECT_NAME_TITLE_1": "Help Desk",
+		"PROJECT_DESCRIPTION_1.1": "In partnership with co-workers, I created a system using Java and REST API on the  Back-End and, on the Front-End, Angular CLI with Bootstrap. How we created the project is described below:" ,
+		"PROJECT_DESCRIPTION_1.2": "Once a week we met in person or remotely to discuss what was done and what could be done;",
+		"PROJECT_DESCRIPTION_1.3": "The activities were created and specified in Jira;",
+		"PROJECT_DESCRIPTION_1.4": "After the completion of the activity, the commit on branch was done;",
+		"PROJECT_DESCRIPTION_1.5": "After a certain amount of activities completed, a member would merge with the Master;",
+		"PROJECT_DESCRIPTION_1.6": "When a new activity was developed, a new branch was created from the Master;",
+		"PROJECT_DESCRIPTION_1.7": "For code versioning we used GIT.",
+		"PROJECT_NAME_SUB_TITLE_1": "Front-End",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.1": "The system was created with componentization, consultation and registration screen",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.2": "Some validations such as CNPJ and CPF have been implemented on  Front-End;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.3": "Front-End and Back-End integration was done with JSON, for example,  when the Font-End made a request with GET and the API returned the result in JSON;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_1.4": "We also used the object-oriented concept to create classes and components.",
+		"PROJECT_NAME_SUB_TITLE_2": "Back-End",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.1": "It was created in MVC and each layer was responsible for a certain action;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.2": "Here we also used object orientation for creating classes;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.3": "JPA was used for database integration;",
+		"PROJECT_DESCRIPTION_SUB_TITLE_2.4": "We used Flyway to manage database tables.",
+
+		"PROJECT_NAME_TITLE_2": "FangFarm",
+		"PROJECT_DESCRIPTION_2.1": "FangFarm was developed using the following tools: Spring Boot, Java, REST API, and MySQL in the Back-end and Angular CLI in the Front-end." ,
+		"PROJECT_DESCRIPTION_2.2": "The objective of this project is to provide an efficient software for farm management.",
+		"PROJECT_DESCRIPTION_2.3": "You can access FangFarm by clicking on the “LOGIN” tab and then logging in using the user available on the website. Please note that the website is hosted at free Heroku server so it may take up to 40 seconds to login.",
+		"PROJECT_DESCRIPTION_2.4": "See more (API):",
+		"PROJECT_DESCRIPTION_2.5": "See more (Front-end):"
+	},
+
+	"CONTACT": {
+		"CONTACT_TITLE": "Contacts:",
+		"CONTACT_DESCRIPTION_1.1": "maicon.fang@gmail.com",
+		"CONTACT_DESCRIPTION_1.2": "https://www.linkedin.com/in/maicon-alexander-illes-fang-4673242a/",
+		"CONTACT_DESCRIPTION_1.3": "https://github.com/maiconfang"
+	},
+
+	"LOGIN": {
+		"ACCESS_SYSTEM": "Access the System",
+		"LBL_LOGIN": "Login",
+		"LBL_PASSWORD": "Password",
+		"REQUIRED_LOGIN": "Login",
+		"REQUIRED_PASSWORD": "The password",
+		"REMEMBER_ME": "Remember me",
+		"ENTER": "Enter",
+		"FORGOT_PASSWORD": "I forgot my password"
+	},
+
+	"FORM_VALIDATIONS": {
+		"REQUIRED": " is required",
+		"MIN_LENGTH": " need to have at least ",
+		"MAX_LENGTH":  " may have have at most ",
+		"CHARACTERS": " characters",
+		"EMAIL": " need to have the @"
+	},
+
+	"NAV_BAR": {
+		"SYSTEM_NAME": "Fang Farm",
+		"OPTION": "Option",
+		"PROFILE": " Profile",
+		"SETTINGS": " Settings",
+		"LOGOUT": " Logout"
+	},
+
+	"SIDE_BAR": {
+		"MODEL" : "Model",
+		"STATE": "State",
+		"CITY" : "City",
+		"EMPLOYEE" : "Employee",
+		"GROUP" : "Group",
+		"GROUP_PERMISSION" : "Group Permission",
+		"USER" : "User",
+		"BRAND" : "Brand",
+		"VEHICLE" : "Vehicle",
+		"SEE_POSTS": "See Records",
+		"ADD_MODEL": "Add Model",
+		"ADD_STATE": "Add State",
+		"ADD_CITY": "Add City",
+		"ADD_EMPLOYEE": "Add Employee",
+		"ADD_GROUP": "Add Group",
+		"ADD_GROUP_PERMISSION": "Add Group Permission",
+		"ADD_USER": "Add User",
+		"ADD_BRAND": "Add Brand",
+		"ADD_VEHICLE": "Add Vehicle"
+	},
+
+	"CRUD": {
+		"SAVE" : "Save",
+		"BACK": "Back to search",
+		"NEW": "Create record",
+		"EXPORT": "Export",
+		"IMPORT": "Import",
+		"ACTION": "Actions",
+		"ACTION_UPDATE": "Update",
+		"ACTION_REMOVE": "Remove",
+		"TOOLTIP_FILTER": "Consult records",
+		"TOOLTIP_CREATE_NEW": "Create new record",
+		"TOOLTIP_SAVE": "Save record",
+		"TOOLTIP_BACK": "Back to search",
+		"TOOLTIP_ERASER": "Eraser fields",
+		"MSG_CONFIRM_REMOVE": "Do you really want to delete ",
+		"MSG_CONFIRM_REMOVE_YES": "Yes",
+		"MSG_CONFIRM_REMOVE_NO": "No",
+		"MSG_SUCCESS_REMOVE": "Successfully removed",
+		"MSG_SUCCESS_CREATED": "Successfully created",
+		"MSG_SUCCESS_UPDATED": "Successfully updated"
+	},
+
+	"MODEL": {
+		"SEARCH_COLUMN_NAME": "Model",
+		"MODEL_LABEL_FILTER": "Name of model",
+		"LABEL_NAME": "Name of model",
+		"TITLE_CONSULT": "Consult Model",
+		"TITLE_EDIT": "Edit of Model",
+		"TITLE_NEW": "New Model"
+	},
+
+	"USER": {
+		"SEARCH_COLUMN_NAME": "User",
+		"SEARCH_COLUMN_EMAIL": "Login / E-mail",
+		"USER_LABEL_FILTER": "Name of user",
+		"LABEL_NAME": "Name of user",
+		"LABEL_EMAIL": "E-mail of user",
+		"LABEL_PASSWORD": "Password of user",
+		"TITLE_CONSULT": "Consult User",
+		"TITLE_EDIT": "Edit of User",
+		"TITLE_NEW": "New User"
+	},
+
+	"STATE": {
+		"SEARCH_COLUMN_NAME": "State",
+		"SEARCH_COLUMN_FS": "Federation of state",
+		"STATE_LABEL_FILTER": "Name of state",
+		"LABEL_NAME": "Name of state",
+		"LABEL_FS": "Name of federation of state",
+		"TITLE_CONSULT": "Consult State",
+		"TITLE_EDIT": "Edit of State",
+		"TITLE_NEW": "New State",
+		"TOOLTIP_STATE": "Name of state",
+		"TOOLTIP_FS": "Name of federation of state"
+	},
+	
+	"CITY": {
+		"SEARCH_COLUMN_NAME": "City",
+		"SEARCH_COLUMN_STATE": "State",
+		"CITY_LABEL_FILTER": "Name of city",
+		"STATE_LABEL_FILTER": "Name of state",
+		"LABEL_NAME": "Name of city",
+		"LABEL_STATE": "State",
+		"LABEL_STATE_PLACE_HOLDER": "Type the name of state",
+		"TITLE_CONSULT": "Consult City",
+		"TITLE_EDIT": "Edit of City",
+		"TITLE_NEW": "New City",
+		"TOOLTIP_CITY": "Name of city",
+		"TOOLTIP_STATE": "Name of state"
+	},
+
+	"GROUP": {
+		"SEARCH_COLUMN_NAME": "Group",
+		"GROUP_LABEL_FILTER": "Name of group",
+		"LABEL_NAME": "Name of group",
+		"TITLE_CONSULT": "Consult Group",
+		"TITLE_EDIT": "Edit of Group",
+		"TITLE_NEW": "New Group",
+		"TOOLTIP_GROUP": "Name of group"
+	},
+
+	"EMPLOYEE": {
+		"SEARCH_COLUMN_NAME": "Employee",
+		"SEARCH_COLUMN_RG": "RG",
+		"SEARCH_COLUMN_CPF": "CPF",
+		"EMPLOYEE_LABEL_FILTER": "Name of employee",
+		"LABEL_NAME": "Name",
+		"LABEL_RG": "RG",
+		"LABEL_CPF": "CPF",
+		"LABEL_ZIP": "Zip Code",
+		"LABEL_TYPE": "Type",
+		"LABEL_NUMBER": "Number",
+		"LABEL_COMPLEMENT": "Complement",
+		"LABEL_BLOCK": "Neighborhood",
+		"TITLE_CONSULT": "Consult employee",
+		"TITLE_EDIT": "Edit of Employee",
+		"TITLE_NEW": "New Employee",
+		"TOOLTIP_EMPLOYEE": "Name of employee",
+		"TOOLTIP_RG": "RG of employee",
+		"TOOLTIP_CPF": "CPF of employee",
+		"LABEL_CITY": "City",
+		"TOOLTIP_CITY": "Nam of city"
+	},
+
+	"BRAND": {
+		"SEARCH_COLUMN_NAME": "Brand",
+		"SEARCH_COLUMN_MODEL": "Model",
+		"BRAND_LABEL_FILTER": "Name of brand",
+		"MODEL_LABEL_FILTER": "Name of model",
+		"LABEL_NAME": "Name of brand",
+		"LABEL_MODEL": "Model",
+		"LABEL_MODEL_PLACE_HOLDER": "Type the name of model",
+		"TITLE_CONSULT": "Consult Brand",
+		"TITLE_EDIT": "Edit of Brand",
+		"TITLE_NEW": "New Brand",
+		"TOOLTIP_BRAND": "Name of brand",
+		"TOOLTIP_MODEL": "Name of model"
+	},
+
+	"VEHICLE": {
+		"SEARCH_COLUMN_COLOR": "Color",
+		"SEARCH_COLUMN_YEAR": "Year",
+		"SEARCH_COLUMN_FUEL": "Fuel",
+		"SEARCH_COLUMN_DESCRIPTION": "Descrição",
+		"SEARCH_COLUMN_LICENSE_PLATE": "License Plate",
+		"SEARCH_COLUMN_BRAND": "Brand",
+		"COLOR_LABEL_FILTER": "Color of vehicle",
+		"LICENSE_PLATE_LABEL_FILTER": "License plate of vehicle",
+		"BRAND_LABEL_FILTER": "Name of brand",
+		"LABEL_COLOR": "Color",
+		"LABEL_LICENSE_PLATE": "License Plate",
+		"LABEL_YEAR": "Year",
+		"LABEL_FUEL": "Fuel",
+		"LABEL_DESCRIPTION": "Description",
+		"LABEL_BRAND": "Brand",
+		"LABEL_BRAND_PLACE_HOLDER": "Type the name of brand",
+		"TITLE_CONSULT": "Consult Vehicle",
+		"TITLE_EDIT": "Edit of Vehicle",
+		"TITLE_NEW": "New Vehicle",
+		"TOOLTIP_COLOR": "Color of vehicle",
+		"TOOLTIP_YEAR": "Year of vehicle",
+		"TOOLTIP_FUEL": "Fuel of vehicle",
+		"TOOLTIP_DESCRIPTION": "Description of vehicle",
+		"TOOLTIP_LICENSE_PLATE": "License plate of vehicle",
+		"TOOLTIP_BRAND": "Name of brand"
+	},
+
+	"PAGINATOR": {
+		"BACK": "Back",
+		"NEXT": "Next"
+	},
+
+	"INTERCEPTOR":{
+		"STATUS_400": "Invalid username or password",
+		"STATUS_401": "Application without access permission",
+		"TOKEN_EXPIRED": "Session expired",
+		"FULL_AUTHENTICATION": "Application without access permission",
+		"STATUS_404": "Resource not found",
+		"STATUS_405": "Method not allowed",
+		"STATUS_500": "Error processing your request",
+		"STATUS_DEFAULT": "Server not found"
+	},
+
+	"FARM_STATE_SELECT": {
+		"BUTTON_SELECT_STATE": "Select the State",
+		"TOOLTIP_BUTTON_SELECT_STATE": "Select the state",
+		"TITLE": "List of States",
+		"LABEL_STATE": "Name of state",
+		"TOOLTIP_BUTTON_FILTER": "Consult of state",
+		"SEARCH_COLUMN_ID": "Code",
+		"SEARCH_COLUMN_NAME": "State",
+		"SEARCH_COLUMN_FS": "Federation of State",
+		"BUTTON_CLOSE": "Close",
+		"TOOLTIP_BUTTON_CLOSE": "Close",
+		"TOOLTIP_BUTTON_SELECT": "Select the state",
+		"TOOLTIP_ID": "Code of state",
+		"TOOLTIP_NAME": "Name of state",
+		"TOOLTIP_FS": "Federation of State",
+		"PLACE_HOLDER_NAME": "Name of state"
+	},
+
+	"FARM_CITY_SELECT": {
+		"BUTTON_SELECT_CITY": "Select City",
+		"TOOLTIP_BUTTON_SELECT_CITY": "Select city",
+		"TITLE": "List of Cities",
+		"LABEL_CITY": "Name of city",
+		"TOOLTIP_BUTTON_FILTER": "Consult of city",
+		"TOOLTIP_BUTTON_SELECT": "Select a city",
+		"SEARCH_COLUMN_ID": "Code",
+		"SEARCH_COLUMN_NAME": "City",
+		"BUTTON_CLOSE": "Close",
+		"TOOLTIP_BUTTON_CLOSE": "Close",
+		"TOOLTIP_ID": "Code of city",
+		"TOOLTIP_NAME": "Name of city",
+		"PLACE_HOLDER_NAME": "Name of city"
+	},
+
+	"FARM_MODEL_SELECT": {
+		"BUTTON_SELECT_MODEL": "Select Model",
+		"TOOLTIP_BUTTON_SELECT_MODEL": "Select model",
+		"TITLE": "List of Models",
+		"LABEL_MODEL": "Name of model",
+		"TOOLTIP_BUTTON_FILTER": "Consult of model",
+		"TOOLTIP_BUTTON_SELECT": "Select a model",
+		"SEARCH_COLUMN_ID": "Code",
+		"SEARCH_COLUMN_NAME": "Model",
+		"BUTTON_CLOSE": "Close",
+		"TOOLTIP_BUTTON_CLOSE": "Close",
+		"TOOLTIP_ID": "Code of model",
+		"TOOLTIP_NAME": "Name of model",
+		"PLACE_HOLDER_NAME": "Name of model"
+	},
+
+	"FARM_BRAND_SELECT": {
+		"BUTTON_SELECT_BRAND": "Select Brand",
+		"TOOLTIP_BUTTON_SELECT_BRAND": "Select brand",
+		"TITLE": "List of Brands",
+		"LABEL_BRAND": "Name of brand",
+		"TOOLTIP_BUTTON_FILTER": "Consult of brand",
+		"TOOLTIP_BUTTON_SELECT": "Select a brand",
+		"SEARCH_COLUMN_ID": "Code",
+		"SEARCH_COLUMN_NAME": "Brand",
+		"BUTTON_CLOSE": "Close",
+		"TOOLTIP_BUTTON_CLOSE": "Close",
+		"TOOLTIP_ID": "Code of brand",
+		"TOOLTIP_NAME": "Name of brand",
+		"PLACE_HOLDER_NAME": "Name of brand"
+	},
+
+	"GROUP_PERMISSION": {
+		"SEARCH_COLUMN_NAME": "Group Permission",
+		"GROUP_PERMISSION_LABEL_FILTER": "Name of group permission",
+		"LABEL_NAME": "Name of group permission",
+		"TITLE_CONSULT": "Consult Group Permission",
+		"TITLE_EDIT": "Edit of Group Permission",
+		"TITLE_NEW": "New Group Permission",
+		"GROUP_PERMISSION_LABEL_GROUP": "Group",
+		"GROUP_PERMISSION_SELECT_GROUP": "Select a group"
+	}
+
+
+}
+  
