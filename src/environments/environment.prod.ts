@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://maiconfangui-449c3be78199.herokuapp.com',
+  apiUrl: 'https://fangfarm-api-aa19913779dc.herokuapp.com',
   basicAuth: btoa('maiffarm-web:web123')
 };
