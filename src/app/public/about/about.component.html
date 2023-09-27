@@ -3,307 +3,89 @@
   <form>
 
     <div class="form-row">
+
       <tabset>
-        <tab heading="{{ 'ABOUT.ABOUTMETAB' | translate }}" id="tab1" class="text">
-          {{ 'ABOUT.ABOUTMETEXT' | translate }}
+
+        <!-- About Me -->
+        <tab heading="{{ 'about_tabs.tab_1' | translate }}" id="tab1" class="text">
+          {{ 'about_info.description' | translate }}
         </tab>
 
-        <tab heading="{{ 'ABOUT.SKILLSTAB' | translate }}" class="text">
+        <tab heading="{{ 'about_tabs.tab_2' | translate }}" id="tab2" class="text">
 
           <div class="form-row">
 
-            <div class="form-group col">
-
+            <div *ngFor='let skills of "Experience.skills" | translate; let i = index'>
               <ul>
-                <li>
-                  Java
-                </li>
-
-                <li>
-                  Angular
-                </li>
-
-                <li>
-                  Type Script
-                </li>
-
-                <li>
-                  Spring Boot
-                </li>
-
-                <li>
-                  REST API
-                </li>
-
-                <li>
-                  OData Protocol
-                </li>
-
-                <li>
-                  GitHub
-                </li>
-
-                <li>
-                  PostgreSQL
-                </li>
-
-                <li>
-                  SQL Server
-                </li>
-
-
-                <li>
-                  MySQL
-                </li>
-
+                <li *ngFor="let skills of skills.skills">{{ skills }}</li>
               </ul>
-
-            </div>
-
-            <div class="form-group col">
-              <ul>
-                <li>
-                  JUnit
-                </li>
-
-                <li>
-                  Selenium WebDriver
-                </li>
-
-                <li>
-                  Jenkins
-                </li>
-
-                <li>
-                  Jira
-                </li>
-
-                <li>
-                  <td scope="row">{{ 'ABOUT.SKILLSTEXT' | translate }} </td>
-                </li>
-
-                <li>
-                  AWS - Amazon
-                </li>
-
-                <li>
-                  Heroku
-                </li>
-
-                <li>
-                  Eclipse
-                </li>
-                
-                <li>
-                  Visual Studio Code
-                </li>
-                
-                
-                <li>
-                  JPA
-                </li>
-
-                <li>
-                  Flyway
-                </li>
-
-                <li>
-                  CSS
-                </li>
-
-                <li>
-                  HTML
-                </li>
-
-              </ul>
-
             </div>
 
           </div>
 
         </tab>
 
-        <tab heading="{{ 'ABOUT.EXPIRIENCETAB' | translate }}" class="text">
+        <!-- Experience -->
+        <tab heading="{{ 'about_tabs.tab_3' | translate }}" id="tab3" class="text">
 
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.EXPERIENCETEXT_LINE_TITLE_3' | translate }}</th>
-              </tr>
-            </thead>
+          <section class="container mt-5">
+            <div *ngFor='let job of "Experience.jobs" | translate; let i = index'>
+              <h1>
+                <strong>{{ job.title }} - {{ job.companyName }} - {{job.startDateMonth}} {{ job.startDateYear }} /
+                  {{job.endDateMonth}} {{ job.endDateYear }}</strong>
+              </h1>
 
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.1' | translate }}</td>
-              </tr>
-              
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.2' | translate }}</td>
-              </tr>
-              
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.3' | translate }}</td>
-              </tr>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.4' | translate }}</td>
-              </tr>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.5' | translate }}</td>
-              </tr>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_3.6' | translate }}</td>
-              </tr>
+              <ul>
+                <li *ngFor="let description of job.description">{{ description }}</li>
+              </ul>
 
-            </tbody>
-          </table>
+              <div id="skillsOfJob" style="margin-left: 10px;">
+                <strong>{{ 'Experience.jobsTitles.skills' | translate }}:</strong>
+                <ng-container *ngFor="let skill of job.skills; let last = last">
+                  {{ skill }}{{ !last ? ', ' : '' }}
+                </ng-container>
+              </div>
 
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.EXPERIENCETEXT_LINE_TITLE_1' | translate }}</th>
-              </tr>
-            </thead>
+              <div id="otherDetails" style="margin-left: 10px; margin-top: 10px;">
+                <strong>{{ 'Experience.jobsTitles.location' | translate }}: </strong> {{job.location}}                
+              </div>
 
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_1.1' | translate }}</td>
-              </tr>
+              <br>
+            </div>
 
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_1.2' | translate }}</td>
-              </tr>
+          </section>
 
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_1.3' | translate }}</td>
-              </tr>
-            </tbody>
-          </table>
-
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.EXPERIENCETEXT_LINE_TITLE_2' | translate }}</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_2.1' | translate }}</td>
-              </tr>
-
-              <tr>
-                <td scope="row">{{ 'ABOUT.EXPERIENCETEXT_LINE_DESCRIPTION_2.2' | translate }}</td>
-              </tr>
-
-            </tbody>
-          </table>
 
         </tab>
 
-
-        <tab heading="{{ 'ABOUT.FORMATIONTAB' | translate }}" class="text">
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.FORMATIONTEXT_DESCRIPTION_1.1' | translate }} </th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.FORMATIONTEXT_LINE_TITLE_1' | translate }}</td>
-              </tr>
-
-            </tbody>
-          </table>
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.FORMATIONTEXT_DESCRIPTION_2.1' | translate }} </th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.FORMATIONTEXT_LINE_TITLE_2' | translate }}</td>
-              </tr>
-
-            </tbody>
-          </table>
-          
-
+        <!-- Education  -->
+        <tab heading="{{ 'about_tabs.tab_4' | translate }}" id="tab4" class="text">
+          <div *ngFor='let about of "about_education" | translate; let i = index'>
+            <h1>
+              {{ about.title }} - {{ about.description }}
+            </h1>
+          </div>
         </tab>
 
-        <tab heading="{{ 'ABOUT.LANGUAGESTAB' | translate }}" class="text">
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.LANGUAGESTEXT_LINE_TITLE_1' | translate }}</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.LANGUAGESTEXT_DESCRIPTION_1.1' | translate }}</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.LANGUAGESTEXT_LINE_TITLE_2' | translate }}</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.LANGUAGESTEXT_DESCRIPTION_2.1' | translate }}</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">{{ 'ABOUT.LANGUAGESTEXT_LINE_TITLE_3' | translate }}</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.LANGUAGESTEXT_DESCRIPTION_3.1' | translate }}</td>
-              </tr>
-            </tbody>
-          </table>
-
+        <!-- Languages -->
+        <tab heading="{{ 'about_tabs.tab_5' | translate }}" id="tab5" class="text">
+          <div *ngFor='let about of "about_languages" | translate; let i = index'>
+            <h1>
+              {{ about.title }} - {{ about.description }}
+            </h1>
+          </div>
         </tab>
 
-        <tab heading="{{ 'ABOUT.COURSESTAB' | translate }}" class="text">
+        <!-- Courses -->
+        <tab heading="{{ 'about_tabs.tab_6' | translate }}" id="tab6" class="text">
 
-          <table class="table table-borderless">
-            <tbody>
-              <tr>
-                <td scope="row">{{ 'ABOUT.COURSESTEXT_LINE_1' | translate }} </td>
-              </tr>
-
-              <tr>
-                <td scope="row">{{ 'ABOUT.COURSESTEXT_LINE_2' | translate }}</td>
-              </tr>
-
-              <tr>
-                <td scope="row">{{ 'ABOUT.COURSESTEXT_LINE_3' | translate }}</td>
-              </tr>
-
-            </tbody>
-          </table>
+          <div *ngFor='let about of "about_courses" | translate; let i = index'>
+            <h1>
+              {{ about.title }}
+            </h1>
+          </div>
 
         </tab>
-
 
       </tabset>
     </div>

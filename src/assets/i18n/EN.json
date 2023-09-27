@@ -1,4 +1,5 @@
 {
+
 	"NAVBAR":{
 		"NAVBAR_ITEM_1": "HOME",
 		"NAVBAR_ITEM_2": "ABOUT",
@@ -12,75 +13,251 @@
 	  "ABSTRACT": "I am a Software Developer with more than 3 years of experience and I have worked with technologies such as Angular, Java, MySQL, SQL Server, and Postgresql. I am also familiar with HP Quality Center, Selenium Web Driver, Oracle, JUnit, and HTML. I have worked with front-end and back-end development, software build and deploy, and troubleshooting. I hold a Bachelor’s Degree in Information Systems and a Post-Graduation in Soft ware Engineering. I consider myself a dedicated, communicative, and outgoing person."
 	},
 
-	"ABOUT": {
-		"ABOUTMETAB": "About Me",
-		"SKILLSTAB": "Skills",
-		"EXPIRIENCETAB": "Experience",
-		"FORMATIONTAB": "Formation",
-		"LANGUAGESTAB": "Languages",
-		"COURSESTAB": "Courses",
-		"ABOUTMETEXT": "I am a Software Developer with more than 3 years of experience and I have worked with technologies such as Angular, Java, MySQL, SQL Server, and Postgresql. I am also familiar with HP Quality Center, Selenium WebDriver, Oracle, JUnit, and HTML. I have worked with front-end and back-end development, software build and deploy, and troubleshooting. I hold a Bachelor’s Degree in Information Systems and a Post-Graduation in Software Engineering. I consider myself a dedicated, communicative and outgoing person", 
-		"SKILLSTEXT": "Object-oriented Programming",
-		"EXPERIENCETEXT_LINE_TITLE_1": "Test Analyst - Velti Tecnologia. 2014 - 2019",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_1.1": " Performed Test Analyses with JUnit and JMeter",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_1.2": " Worked with Test Automation using Selenium WebDriver",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_1.3": "Created and maintained the test repository, including test suites and test cases",
-		"EXPERIENCETEXT_LINE_TITLE_2": "Software Tester - M2sys Tecnologia e Serviços S/A. 2013 - 2014",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_2.1": "Performed Test Analyses mainly directed to HSBC Bank System",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_2.2": "Elaborated and executed manual tests",
-		"EXPERIENCETEXT_LINE_TITLE_3": "  Software Developer Java and Angular - NTT DATA Business Solutions Brazil. 2020 - 2022",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.1": "Develop and maintain front-end applications using Angular JS, HTML, and CSS",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.2": "Develop and maintain back-end applications using Java",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.3": "Access and use data with REST API, SOAP services, and also OData protocol",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.4": "Software build and deploy using Jira and Bamboo",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.5": "Check databases and create tables and viewers using MySQL, SQL Server and PostgreSQL databases",
-		"EXPERIENCETEXT_LINE_DESCRIPTION_3.6": "Support continuous improvement and adoption of best practices by training coworkers",
-
-		"FORMATIONTEXT_LINE_TITLE_1": "Federal University of Paraná 2013 - 2014" ,
-		"FORMATIONTEXT_DESCRIPTION_1.1": "Post-Graduation in Software Engineering",
-		"FORMATIONTEXT_LINE_TITLE_2": "Dynamic Union of Colleges Cataratas 2006 - 2010" ,
-		"FORMATIONTEXT_DESCRIPTION_2.1": "Bachelor's Degree in Information Systems",
-
-		"LANGUAGESTEXT_LINE_TITLE_1": "English",
-		"LANGUAGESTEXT_DESCRIPTION_1.1": "Advanced",
-		"LANGUAGESTEXT_LINE_TITLE_2": "Spanish",
-		"LANGUAGESTEXT_DESCRIPTION_2.1": "Fluent",
-		"LANGUAGESTEXT_LINE_TITLE_3": "Portuguese",
-		"LANGUAGESTEXT_DESCRIPTION_3.1": "Native",
-
-		"COURSESTEXT_LINE_1": "Spring REST Specialist, 240 hours, at Algaworks",
-		"COURSESTEXT_LINE_2": "Angular and Spring Fullstack, 120 hours, at Algaworks",
-		"COURSESTEXT_LINE_3": "Java and Object-oriented, 22 hours, at Algaworks"
+	"about_tabs": {
+		"tab_1": "About Me",
+		"tab_2": "Skills",
+		"tab_3": "Experience",
+		"tab_4": "Education",
+		"tab_5": "Languages",
+		"tab_6": "Courses"	
 	},
 
+	"about_info": {
+		"description": "I am a skilled Software Developer with over 6 years of experience, proficient in a wide range of technologies including Angular, Java, Spring Boot, PHP, Vue.js, Laravel, and databases like MySQL, SQL Server, and PostgreSQL. Additionally, I have hands-on experience with HP Quality Center, Selenium WebDriver, BDD, Oracle, JUnit, and HTML. My expertise encompasses front-end and back-end development, software build and deployment, as well as troubleshooting. I hold a Bachelor's Degree in Information Systems and a Post-Graduation in Software Engineering, further solidifying my knowledge and capabilities. With a dedicated, communicative, and outgoing nature, I am committed to delivering"	
+	},
+
+	"Experience.skills": [
+		{
+			"skills": ["Java","HTML","Linux","JavaScript","Databases","Git","Full-Stack Development","Web Applications","Android Development","Agile Methodologies","Vue.js","Laravel","PHP","MySQL","Java","Software Development","PostgreSQL","Eclipse"
+			]
+		}
+	],
+
+	"Experience.jobsTitles":{
+		"employmentType": "Employment Type",
+		"location": "Location",
+		"locationType": "Location Type",
+		"skills": "Acquired Skills"
+	},
+
+	"Experience.jobs": [
+		{
+			"title": "Stoker",
+			"companyName": "Costco",
+			"location": "Moncton, New Brunswick, Canada",
+			"startDateMonth": "September,",
+			"startDateYear": "2023",
+			"endDateMonth": "NOW",
+			"endDateYear": "",
+			"description": [
+				  "Follow merchandising standards and practices. Aligns product, collects and returns stray items, stocks to maintain high product levels",
+				  "Communicates with supervisors and managers to determine merchandising plan and priorities. Writes list of products to be brought from steel, by forklift driver, for stocking",
+				  "Uses box knife to cut boxes for display/accessibility of product and to cut twine or shrink-wrap from pallet. Wraps or ties and tags pallets to be returned to steel",
+				  "Stocks opened cases on shelves. Moves and positions pallets of merchandise using manual pallet jack. Stacks product from partial pallets onto full pallets",
+				  "Marks product number on unmarked items using marking gun. Observes and ensures correct product signage",
+				  "Sets up display models, assembling as necessary. Modifies displays for safe handing by members, e.g., bolting heavy equipment, taping blade edges. Follow all safety and security procedures",
+				  "Pulls loose cardboard and slip-sheets from floor. Clears sales floor or debris and sweeps. Removes empty pallets from the sales floor. Operates cardboard bailer and trash compactor. Rewraps loose product using shrink-wrap machine",
+				  "Provide prompt and courteous member service. Helps members to load large items into their cart, directs members to products, relates product status knowledge"
+				  
+			],
+			"skills": ["Adaptability", "Attention to details", "Collaboration", "Problem Solving", "Operation of Handling Equipment",  "Material Inspection", "Equipment Maintenance", "Goods Packaging", "Cargo Transportation"
+			]
+	  },
+		{
+			"title": "System Analyst",
+			"companyName": "Cloud and More INC",
+			"location": "Moncton, New Brunswick, Canada",
+			"startDateMonth": "April,",
+			"startDateYear": "2022",
+			"endDateMonth": "August,",
+			"endDateYear": "2023",
+			"description": [
+				"Managed a group of professionals in their learning journey, encouraging the continuous development of their testing and development skills",
+				"Develop and maintain data integration tools and processes",
+				"Access and use data with SOAP services",
+				"Successfully developed an application integrating Odoo system data with the Nextcloud dashboard, including creating widgets and menus for configuring Odoo access via External API",
+				"Led the migration of a CRM project from Java 8 to Java 11 and from Tomcat 8.5 to Tomcat 9",
+				"Effectively developed an Android application that displays vehicle locations on a map"
+			],
+			"skills": ["Java","HTML","Linux","JavaScript","Databases","Git","Full-Stack Development","Web Applications","Android Development","Agile Methodologies","Vue.js","Laravel","PHP","MySQL","Java","Software Development","PostgreSQL","Eclipse"
+			]
+	  	},
+		  {
+			"title": "Software Developer",
+			"companyName": "NTT DATA Business Solutions Brazil",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "May,",
+			"startDateYear": "2020",
+			"endDateMonth": "February,",
+			"endDateYear": "2022",
+			"description": [
+				"Develop and maintain back-end applications using Java",
+				"Access and use data with REST API, SOAP services, and also OData protocol",
+				"Develop and maintain front-end applications using Angular JS, HTML, and CSS",
+				"Software build and deploy using Jira and Bamboo",
+				"Check databases and create tables and viewers using SQL Server and PostgreSQL databases"
+			],
+			"skills": ["Test Cases", "Test Planning", "HTML", "Spring Framework", "SoapUI", "Spring MVC", "Databases", "Git", "Full-Stack Development", "Web Applications", "MySQL", "Microsoft SQL Server", "PostgreSQL", "Eclipse", "REST API", "Spring Boot"]
+	  	},
+		  {
+			"title": "Test Analyst",
+			"companyName": "Velti Tecnologia",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "March,",
+			"startDateYear": "2014",
+			"endDateMonth": "October,",
+			"endDateYear": "2019",
+			"description": [
+				"Performed Test Analyses with JUnit and JMeter",
+				"Worked with Test Automation using Selenium WebDriver",
+				"Accurately deployed and managed resources for testing",
+				"Planned the priority test",
+				"Helped the communication between the help desk and the development team",
+				"Created and maintained the test repository, including test suites and test cases"
+				
+			],
+			"skills": ["Scenario Testing", "Cucumber", "Gherkin", "Test Cases", "Software Quality Assurance", "Test Planning", "HTML", "Software Testing", "Jenkins", "JavaScript", "Selenium", "Spring MVC", "Databases", "Git", "Web Applications", "Test Automation", "MySQL", "PostgreSQL", "JMeter", "Selenium WebDriver"]
+	  	},
+		  {
+			"title": "Software Tester",
+			"companyName": "M2sys Tecnologia e Serviços S/A",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "August,",
+			"startDateYear": "2013",
+			"endDateMonth": "March,",
+			"endDateYear": "2014",
+			"description": [
+				"Performed Test Analyses mainly directed to HSBC Bank System",
+				"Elaborated and executed manual tests"				
+			],
+			"skills": ["Scenario Testing", "Test Cases", "HTML", "Spring Framework", "Software Testing", "Selenium", "Databases", "Manual Testing", "Integration Testing", "Selenium WebDriver"]
+	  	},
+		  {
+			"title": "Software Tester",
+			"companyName": "NTT Data Corporation",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "May,",
+			"startDateYear": "2013",
+			"endDateMonth": "July,",
+			"endDateYear": "2013",
+			"description": [
+				"Performed Test Analyses mainly directed to HSBC Bank System",
+				"Elaborated and executed manual tests"
+			],
+			"skills": ["Scenario Testing", "Test Cases", "Software Quality Assurance", "HTML", "Git", "MySQL", "Selenium WebDriver"]
+	  	},
+		  {
+			"title": "Software Tester Jr.",
+			"companyName": "Prime Control",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "October,",
+			"startDateYear": "2012",
+			"endDateMonth": "March,",
+			"endDateYear": "2013",
+			"description": [
+				"I worked with Test Analyses mainly directed to Boticário Group System",
+				"In addition, I worked with load testing using JMeter and manual tests in general"
+			],
+			"skills": ["Scenario Testing", "Test Cases", "Software Quality Assurance", "Test Planning", "HTML", "Software Testing", "Selenium", "User Acceptance Testing", "Selenium WebDriver"]
+	  	},
+		  {
+			"title": "Software Developer Jr.",
+			"companyName": "Sabro Tecnologia Int. Ltda.",
+			"location": "Curitiba, Parana, Brazil",
+			"startDateMonth": "February,",
+			"startDateYear": "2011",
+			"endDateMonth": "October,",
+			"endDateYear": "2012",
+			"description": [
+				"Software development in Java with MySQL",
+				"In addition, I worked with load testing using JMeter and manual tests in general"
+			],
+			"skills": ["MySQL", "Selenium WebDriver"]
+	  	}
+	],
+
+	"about_education": [
+		{
+		  "title": "Post-Graduation in Software Engineering",
+		  "description": "Federal University of Paraná 2013 - 2014"
+		},
+		{
+		  "title": "Bachelor's Degree in Information Systems",
+		  "description": "Dynamic Union of Colleges Cataratas 2006 - 2010"
+		}
+	  ],
+
+	  "about_languages": [
+		{
+		  "title": "English",
+		  "description": "Advanced"
+		},
+		{
+		  "title": "Spanish",
+		  "description": "Fluent"
+		},
+		{
+		  "title": "Portuguese",
+		  "description": "Native"
+		}
+	  ],
+
+	  "about_courses": [
+		{
+		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 hours"
+		},
+		{
+		  "title": "Learn Cucumber BDD with Java - MasterClass Selenium Framework - Udemy (online) 12 hours"
+		},
+		{
+		  "title": "Jetpack, Architecture and More - Advanced Android Bootcamp 2023 - Udemy (online) 37.5 hours"
+		},
+		{
+		  "title": "Fullstack Angular and Spring Course - Algaworks (online) 120 hours"
+		}
+	  ],
+
+	
+	"about_project_titles": {
+		"language": "Languages",
+		"tool": "Tools"
+	},
+
+	"about_projects" : [
+		{
+			"titleProject": "Odoo System",
+			"companyName": "Cloud and More",
+			"period" : "April, 2022 / August, 2023",			
+			"description" : "In the role of System Analyst, I successfully led the implementation of an ERP called Odoo system encompassing the full software lifecycle. Additionally, in my capacity as a developer, I actively contributed to code maintenance, effectively troubleshooting and resolving issues as they arose",
+			"languages" : ["Python","PostgreSQL"],
+			"tools": ["PyCharm","Visual Studio Code", "PgAdmin"]
+		},
+		{
+			"titleProject": "Integrator",
+			"companyName": "Cloud and More",
+			"period" : "May, 2020 / February, 2022",
+			"description" : "In the role of Software Developer, I excelled in creating and maintaining the functionalities of a project named Integrator. This project focused on integrating an external client system with the internal SAP Business One system. Additionally, I also contributed to documenting processes, explaining the programming language, and detailing its methods",
+			"languages" : ["Java","RestAPI", "Spring Boot", "MySQL"],
+			"tools": ["Eclipse", "MySQL WorkingBench"]
+		},
+		{
+			"titleProject": "Clock Time Automation Test",
+			"companyName": "Velti Tecnologia",
+			"period" : "March, 2014 / October, 2019",
+			"description" : "In the role of Quality Assurance, During my time at Velti Tecnologia (2014 - 2019), I played a pivotal role in ensuring the quality and performance of Time and Attendance Systems. One of my notable accomplishments was in performance testing, where I utilized tools like JUnit and JMeter to rigorously test the system's performance under different scenarios. This involved simulating various user loads to identify potential bottlenecks and areas for optimization. In addition to performance testing, I also conducted usability and functional tests using Selenium WebDriver. This allowed me to assess the user experience and ensure that the system's functionalities met the required specifications. To support these testing efforts, I created and maintained a comprehensive test repository. This included developing test suites and test cases that covered various aspects of the systems. I worked closely with the development team to understand the technical details and nuances, which helped me design effective testing strategies. My experience at Velti Tecnologia provided me with hands-on experience in identifying IT solutions through rigorous testing methodologies. Over the course of five years, I honed my ability to collaborate with cross-functional teams, analyze technical requirements, and provide recommendations based on testing outcomes. Through my work, I developed a deep understanding of the importance of aligning IT solutions with business objectives, ensuring that the technology not only functions correctly but also adds value to the client's operations.",
+			"languages" : ["Selenium WebDriver","JUnit", "Java", "MySQL"],
+			"tools": ["Eclipse", "MySQL WorkingBench"]
+		},
+		{
+			"titleProject": "Maicon Fang Portfolio ",
+			"companyName": "Maicon FAng",
+			"period" : "March, 2020 / NOW",
+			"description" : "I created my portfolio based on a course I took at AlgaWorks. Initially, it only had the home page and a link to the system that called an API developed in Java and Spring Boot. However, I expanded the system by creating new pages and API calls to demonstrate my knowledge in both front-end and back-end development",
+			"languages" : ["Java", "Spring Boot", "RestAPI", "Angular CLI"],
+			"tools": ["Eclipse", "MySQL WorkingBench", "Visual Studio Code"]
+		}
+	],  
 	  
-	"PROJECT": {
-		"PROJECT_NAME_TITLE_1": "Help Desk",
-		"PROJECT_DESCRIPTION_1.1": "In partnership with co-workers, I created a system using Java and REST API on the  Back-End and, on the Front-End, Angular CLI with Bootstrap. How we created the project is described below:" ,
-		"PROJECT_DESCRIPTION_1.2": "Once a week we met in person or remotely to discuss what was done and what could be done;",
-		"PROJECT_DESCRIPTION_1.3": "The activities were created and specified in Jira;",
-		"PROJECT_DESCRIPTION_1.4": "After the completion of the activity, the commit on branch was done;",
-		"PROJECT_DESCRIPTION_1.5": "After a certain amount of activities completed, a member would merge with the Master;",
-		"PROJECT_DESCRIPTION_1.6": "When a new activity was developed, a new branch was created from the Master;",
-		"PROJECT_DESCRIPTION_1.7": "For code versioning we used GIT.",
-		"PROJECT_NAME_SUB_TITLE_1": "Front-End",
-		"PROJECT_DESCRIPTION_SUB_TITLE_1.1": "The system was created with componentization, consultation and registration screen",
-		"PROJECT_DESCRIPTION_SUB_TITLE_1.2": "Some validations such as CNPJ and CPF have been implemented on  Front-End;",
-		"PROJECT_DESCRIPTION_SUB_TITLE_1.3": "Front-End and Back-End integration was done with JSON, for example,  when the Font-End made a request with GET and the API returned the result in JSON;",
-		"PROJECT_DESCRIPTION_SUB_TITLE_1.4": "We also used the object-oriented concept to create classes and components.",
-		"PROJECT_NAME_SUB_TITLE_2": "Back-End",
-		"PROJECT_DESCRIPTION_SUB_TITLE_2.1": "It was created in MVC and each layer was responsible for a certain action;",
-		"PROJECT_DESCRIPTION_SUB_TITLE_2.2": "Here we also used object orientation for creating classes;",
-		"PROJECT_DESCRIPTION_SUB_TITLE_2.3": "JPA was used for database integration;",
-		"PROJECT_DESCRIPTION_SUB_TITLE_2.4": "We used Flyway to manage database tables.",
-
-		"PROJECT_NAME_TITLE_2": "FangFarm",
-		"PROJECT_DESCRIPTION_2.1": "FangFarm was developed using the following tools: Spring Boot, Java, REST API, and MySQL in the Back-end and Angular CLI in the Front-end." ,
-		"PROJECT_DESCRIPTION_2.2": "The objective of this project is to provide an efficient software for farm management.",
-		"PROJECT_DESCRIPTION_2.3": "You can access FangFarm by clicking on the “LOGIN” tab and then logging in using the user available on the website. Please note that the website is hosted at free Heroku server so it may take up to 40 seconds to login.",
-		"PROJECT_DESCRIPTION_2.4": "See more (API):",
-		"PROJECT_DESCRIPTION_2.5": "See more (Front-end):"
-	},
 
 	"CONTACT": {
 		"CONTACT_TITLE": "Contacts:",

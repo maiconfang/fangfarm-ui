@@ -2,129 +2,45 @@
 
   <form>
 
-    <div class="form-row">
+    <section class="container mt-5 text">
+      <div>PROFESSIONAL PROJECT HIGHLIGHTS</div>
+      <div *ngFor='let job of "about_projects" | translate; let i = index'>
+        <h1>
+          <strong>{{ job.titleProject }}  </strong>
+        </h1>
 
-      <tr>
-        <th scope="col" class="text" >{{ 'PROJECT.PROJECT_NAME_TITLE_2' | translate }}</th>
-      </tr>
+        <h1>
+          {{ job.companyName }} - {{job.period}}
+        </h1>
 
-      <ul class="text">
-        <div class="text">
-          {{ 'PROJECT.PROJECT_DESCRIPTION_2.1' | translate }}
+        <ul>
+          <li style="margin-left: 10px;" >{{ job.description }}</li>
+        </ul>
+
+
+        <div style="margin-left: 10px; margin-top: 10px;">
+          <strong>{{ 'about_project_titles.language' | translate }}:</strong>
+          <ng-container *ngFor="let languages of job.languages; let last = last">
+            {{ languages }}{{ !last ? ', ' : '' }}
+          </ng-container>
         </div>
 
-          <div>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_2.2' | translate }}
-          </div>
-
-          <div>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_2.3' | translate }}
-          </div>
-
-          <div>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_2.4' | translate }}
-            <a href="https://github.com/maiconfang/fangfarm-api/tree/release-1.0.0" target="_blank">FangFarm-api</a> 
-          </div>
-
-          <div>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_2.5' | translate }}
-            <a href="https://github.com/maiconfang/fangfarm-ui/tree/release-1.0.0" target="_blank">FangFarm-ui</a> 
-          </div>
-
-
-      </ul>
-
-
-
-      <tr>
-        <th scope="col" class="text" >{{ 'PROJECT.PROJECT_NAME_TITLE_1' | translate }}</th>
-      </tr>
-
-      <ul class="text">
-        <div class="text">
-          {{ 'PROJECT.PROJECT_DESCRIPTION_1.1' | translate }}
+        <div style="margin-left: 10px; margin-top: 10px;">
+          <strong>{{ 'about_project_titles.tool' | translate }}:</strong>
+          <ng-container *ngFor="let tool of job.tools; let last = last">
+            {{ tool }}{{ !last ? ', ' : '' }}
+          </ng-container>
         </div>
 
-        <ul>
+        <br>
+      </div>
 
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.2' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.3' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.4' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.5' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.6' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_1.7' | translate }}
-          </li>
-
-        </ul>
-
-        <tr>
-          <th scope="col">{{ 'PROJECT.PROJECT_NAME_SUB_TITLE_1' | translate }}</th>
-        </tr>
-
-        <ul>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_1.1' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_1.2' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_1.3' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_1.4' | translate }}
-          </li>
-
-        </ul>
-
-        <tr>
-          <th scope="col">{{ 'PROJECT.PROJECT_NAME_SUB_TITLE_2' | translate }}</th>
-        </tr>
-
-        <ul>
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_2.1' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_2.2' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_2.3' | translate }}
-          </li>
-
-          <li>
-            {{ 'PROJECT.PROJECT_DESCRIPTION_SUB_TITLE_2.4' | translate }}
-          </li>
-
-        </ul>
-
-      </ul>
-
-    </div>
-
+    </section>
 
   </form>
 
 </section>
+
+
+
+
