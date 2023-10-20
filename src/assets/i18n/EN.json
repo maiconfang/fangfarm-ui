@@ -9,8 +9,7 @@
 	},
 
 	"HOME": {
-	  "APRESENTATION": "Hi, my name is Maicon Fang and I am a Software Developer (Java, Angular CLI) and a Test Analyst.",
-	  "ABSTRACT": "I am a Software Developer with more than 3 years of experience and I have worked with technologies such as Angular, Java, MySQL, SQL Server, and Postgresql. I am also familiar with HP Quality Center, Selenium Web Driver, Oracle, JUnit, and HTML. I have worked with front-end and back-end development, software build and deploy, and troubleshooting. I hold a Bachelor’s Degree in Information Systems and a Post-Graduation in Soft ware Engineering. I consider myself a dedicated, communicative, and outgoing person."
+	  "PRESENTATION": "Hi, my name is Maicon Fang and I am a Sr. Software Developer | QA - Quality Assurance"	  
 	},
 
 	"about_tabs": {
@@ -23,15 +22,45 @@
 	},
 
 	"about_info": {
-		"description": "I am a skilled Software Developer with over 6 years of experience, proficient in a wide range of technologies including Angular, Java, Spring Boot, PHP, Vue.js, Laravel, and databases like MySQL, SQL Server, and PostgreSQL. Additionally, I have hands-on experience with HP Quality Center, Selenium WebDriver, BDD, Oracle, JUnit, and HTML. My expertise encompasses front-end and back-end development, software build and deployment, as well as troubleshooting. I hold a Bachelor's Degree in Information Systems and a Post-Graduation in Software Engineering, further solidifying my knowledge and capabilities. With a dedicated, communicative, and outgoing nature, I am committed to delivering"	
+		"description": "I am a skilled Software Developer with over 6 years of experience, proficient in a wide range of technologies including Angular, Java, Spring Boot, PHP, Vue.js, Laravel, and databases like MySQL, SQL Server, and PostgreSQL. Additionally, I have hands-on experience with Selenium WebDriver, Cypress, BDD, Oracle, JUnit, and HTML. My expertise encompasses front-end and back-end development, software build and deployment, as well as troubleshooting. I hold a Bachelor's Degree in Information Systems and a Post-Graduation in Software Engineering, further solidifying my knowledge and capabilities. With a dedicated, communicative, and outgoing nature, I am committed to delivering exceptional results."	
 	},
 
 	"Experience.skills": [
 		{
-			"skills": ["Java","HTML","Linux","JavaScript","Databases","Git","Full-Stack Development","Web Applications","Android Development","Agile Methodologies","Vue.js","Laravel","PHP","MySQL","Java","Software Development","PostgreSQL","Eclipse"
-			]
+		  "skills": [
+			"Java",
+			"HTML",
+			"Linux",
+			"JavaScript",
+			"Databases",
+			"Git",
+			"Full-Stack Development",
+			"Web Applications",
+			"Android Development",
+			"Agile Methodologies",
+			"Vue.js",
+			"Laravel",
+			"PHP",
+			"MySQL",
+			"Software Development",
+			"PostgreSQL",
+			"Eclipse",
+			"Python",
+			"Manual Testing",
+			"Scrum",
+			"UML",
+			"Jira",
+			"POM",
+			"Hibernate",
+			"JPA",
+			"Postman",
+			"REST API",
+			"Cypress",
+			"BDD",
+			"Mocha"		
+		  ]
 		}
-	],
+	  ],
 
 	"Experience.jobsTitles":{
 		"employmentType": "Employment Type",
@@ -204,6 +233,12 @@
 
 	  "about_courses": [
 		{
+			"title": "Mobile Automation with Appium 2.0 and WebdriverIO - 2023 - Udemy (online) 9.5 hours"
+		},
+		{
+			"title": "Cypress: Web Automation Testing from Zero to Hero) - Udemy (online) 10 hours"
+		},
+		{
 		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 hours"
 		},
 		{
@@ -250,7 +285,7 @@
 		},
 		{
 			"titleProject": "Maicon Fang Portfolio ",
-			"companyName": "Maicon FAng",
+			"companyName": "Maicon Fang",
 			"period" : "March, 2020 / NOW",
 			"description" : "I created my portfolio based on a course I took at AlgaWorks. Initially, it only had the home page and a link to the system that called an API developed in Java and Spring Boot. However, I expanded the system by creating new pages and API calls to demonstrate my knowledge in both front-end and back-end development",
 			"languages" : ["Java", "Spring Boot", "RestAPI", "Angular CLI"],

@@ -8,8 +8,8 @@
 	},
 
 	"HOME": {
-		"APRESENTATION": "Olá, meu nome é Maicon Fang e sou um Desenvolvedor de Software (Java, Angular CLI) e Analista de Testes.",
-		"ABSTRACT": "Sou um Desenvolvedor de Software com mais de 3 anos de experiência e trabalhei com tecnologias como Angular, Java, MySQL, SQL Server e PostgreSQL. Também estou familiarizado com HP Quality Center, Selenium Web Driver, Oracle, JUnit e HTML. Trabalhei com desenvolvimento front-end e back-end, construção e implantação de software e resolução de problemas. Tenho um diploma de bacharel em Sistemas de Informação e uma pós-graduação em Engenharia de Software. Me considero uma pessoa dedicada, comunicativa e extrovertida."
+		"PRESENTATION": "Olá, meu nome é Maicon Fang e sou um Senior Desenvolvedor de Software e Analista de Testes.",
+		"ABSTRACT": "Sou um habilidoso Desenvolvedor de Software com mais de 6 anos de experiência, proficiente em uma ampla gama de tecnologias, incluindo Angular, Java, Spring Boot, PHP, Vue.js, Laravel e bancos de dados como MySQL, SQL Server e PostgreSQL. Além disso, tenho experiência prática com Selenium WebDriver, Cypress, BDD, Oracle, JUnit e HTML. Minha expertise abrange o desenvolvimento de front-end e back-end, a construção e implantação de software, bem como a resolução de problemas. Possuo um diploma de Bacharel em Sistemas de Informação e uma Pós-Graduação em Engenharia de Software, consolidando ainda mais meu conhecimento e capacidades. Com uma natureza dedicada, comunicativa e extrovertida, estou comprometido em fornecer resultados excepcionais."
 	  },
 	  
 	  "about_tabs": {
@@ -27,7 +27,38 @@
 
 	  "Experience.skills": [
 		{
-		  "skills": ["Java", "HTML", "Linux", "JavaScript", "Bancos de Dados", "Git", "Desenvolvimento Full-Stack", "Aplicações Web", "Desenvolvimento Android", "Metodologias Ágeis", "Vue.js", "Laravel", "PHP", "MySQL", "Java", "Desenvolvimento de Software", "PostgreSQL", "Eclipse"]
+		  "skills": [
+			"Java",
+			"HTML",
+			"Linux",
+			"JavaScript",
+			"Databases",
+			"Git",
+			"Full-Stack Development",
+			"Web Applications",
+			"Android Development",
+			"Metodologias Ágeis",
+			"Vue.js",
+			"Laravel",
+			"PHP",
+			"MySQL",
+			"Desenvolvimento de Software",
+			"PostgreSQL",
+			"Eclipse",
+			"Python",
+			"Teste Manual",
+			"Scrum",
+			"UML",
+			"Jira",
+			"POM",
+			"Hibernate",
+			"JPA",
+			"Postman",
+			"REST API",
+			"Cypress",
+			"BDD",
+			"Mocha"		
+		  ]
 		}
 	  ],
 
@@ -197,6 +228,12 @@
 	  ],
 
 	  "about_courses": [
+		{
+			"title": "Mobile Automation with Appium 2.0 and WebdriverIO - 2023 - Udemy (online) 9.5 hours"
+		},
+		{
+			"title": "Cypress: Web Automation Testing from Zero to Hero) - Udemy (online) 10 hours"
+		},
 		{
 		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 hours"
 		},
