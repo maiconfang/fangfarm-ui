@@ -1,0 +1,16 @@
+<button type="button" class="btn btn-primary" style="margin-top: 1%;" routerLink="/automation">
+    Back to Automation
+</button>
+<div class="custom-automation-margin">
+    <h2>
+        <p>Typeahead</p>
+    </h2>
+
+    <pre class="card card-block card-header mb-3">Model: {{selected | json}}</pre>
+    <input [(ngModel)]="selected"
+           [typeahead]="states"
+           class="form-control">
+
+
+
+</div>

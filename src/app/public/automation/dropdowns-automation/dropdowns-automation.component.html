@@ -1,0 +1,26 @@
+
+<button type="button" class="btn btn-primary" style="margin-top: 1%;" routerLink="/automation">
+    Back to Automation
+</button>
+<div class="custom-automation-margin">
+    <h2>
+        <p>Dropdowns</p>
+    </h2>
+
+    <div class="btn-group" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                aria-controls="dropdown-basic">
+          Button dropdown <span class="caret"></span>
+        </button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+            role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" routerLink="/dropdownsAutomation">Action</a></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="/dropdownsAutomation">Another action</a></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="/dropdownsAutomation">Something else here</a></li>
+          <li class="divider dropdown-divider"></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="/dropdownsAutomation">Separated link</a>
+          </li>
+        </ul>
+      </div>
+
+</div>
