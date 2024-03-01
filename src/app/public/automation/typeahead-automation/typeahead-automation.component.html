@@ -6,8 +6,8 @@
         <p>Typeahead</p>
     </h2>
 
-    <pre class="card card-block card-header mb-3">Model: {{selected | json}}</pre>
-    <input [(ngModel)]="selected"
+    <pre id="preId" class="card card-block card-header mb-3">Model: {{selected | json}}</pre>
+    <input id="typeaheadInput" [(ngModel)]="selected"
            [typeahead]="states"
            class="form-control">
 

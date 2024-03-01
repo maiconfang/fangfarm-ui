@@ -230,25 +230,28 @@
 
 	  "about_courses": [
 		{
-			"title": "Mobile Automation with Appium 2.0 and WebdriverIO - 2023 - Udemy (online) 9.5 hours"
+			"title": "Applied Internet of Things (IoT) - BCIT - Learning HUB (online) - 8 semanas"
 		},
 		{
-			"title": "Cypress: Web Automation Testing from Zero to Hero) - Udemy (online) 10 hours"
+			"title": "Mobile Automation with Appium 2.0 and WebdriverIO - 2023 - Udemy (online) 9.5 horas"
 		},
 		{
-		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 hours"
+			"title": "Cypress: Web Automation Testing from Zero to Hero) - Udemy (online) 10 horas"
 		},
 		{
-		  "title": "Learn Cucumber BDD with Java - MasterClass Selenium Framework - Udemy (online) 12 hours"
+		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 horas"
 		},
 		{
-		  "title": "Jetpack, Architecture and More - Advanced Android Bootcamp 2023 - Udemy (online) 37.5 hours"
+		  "title": "Learn Cucumber BDD with Java - MasterClass Selenium Framework - Udemy (online) 12 horas"
 		},
 		{
-		  "title": "Fullstack Angular and Spring Course - Algaworks (online) 120 hours"
+		  "title": "Jetpack, Architecture and More - Advanced Android Bootcamp 2023 - Udemy (online) 37.5 horas"
 		},
 		{
-		  "title": "Fullstack Angular and Spring Course - Algaworks (online) 120 hours"
+		  "title": "Fullstack Angular e Spring Curso - Algaworks (online) 120 horas"
+		},
+		{
+		  "title": "Fullstack Angular e Spring Course - Algaworks (online) 120 horas"
 		}
 	  ],
 
