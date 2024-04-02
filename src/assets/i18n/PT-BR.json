@@ -1,312 +1,436 @@
 {
-
-	"NAVBAR":{
+	"NAVBAR": {
 		"NAVBAR_ITEM_1": "HOME",
 		"NAVBAR_ITEM_2": "SOBRE",
 		"NAVBAR_ITEM_3": "PROJETOS",
 		"NAVBAR_ITEM_4": "CONTATO",
-		"AUTOMATION" :"AUTOMATIZACAO"
+		"AUTOMATION": "AUTOMATIZACAO"
 	},
-
 	"HOME": {
 		"PRESENTATION": "Olá, meu nome é Maicon Fang e sou um Senior Desenvolvedor de Software e Analista de Testes.",
 		"ABSTRACT": "Sou um habilidoso Desenvolvedor de Software com mais de 6 anos de experiência, proficiente em uma ampla gama de tecnologias, incluindo Angular, Java, Spring Boot, PHP, Vue.js, Laravel e bancos de dados como MySQL, SQL Server e PostgreSQL. Além disso, tenho experiência prática com Selenium WebDriver, Cypress, BDD, Oracle, JUnit e HTML. Minha expertise abrange o desenvolvimento de front-end e back-end, a construção e implantação de software, bem como a resolução de problemas. Possuo um diploma de Bacharel em Sistemas de Informação e uma Pós-Graduação em Engenharia de Software, consolidando ainda mais meu conhecimento e capacidades. Com uma natureza dedicada, comunicativa e extrovertida, estou comprometido em fornecer resultados excepcionais."
-	  },
-	  
-	  "about_tabs": {
+	},
+	"about_tabs": {
 		"tab_1": "Sobre Mim",
 		"tab_2": "Habilidades",
 		"tab_3": "Experiência",
 		"tab_4": "Educação",
 		"tab_5": "Idiomas",
 		"tab_6": "Cursos"
-	  },
-
-	  "about_info": {
+	},
+	"about_info": {
 		"description": "Sou um habilidoso Desenvolvedor de Software com mais de 6 anos de experiência, proficiente em uma ampla gama de tecnologias, incluindo Angular, Java, Spring Boot, PHP, Vue.js, Laravel e bancos de dados como MySQL, SQL Server e PostgreSQL. Além disso, tenho experiência prática com HP Quality Center, Selenium WebDriver, BDD, Oracle, JUnit e HTML. Minha expertise abrange o desenvolvimento front-end e back-end, construção e implantação de software, bem como resolução de problemas. Possuo um diploma de bacharel em Sistemas de Informação e uma pós-graduação em Engenharia de Software, o que solidifica ainda mais meu conhecimento e capacidades. Com uma natureza dedicada, comunicativa e extrovertida, estou comprometido em entregar resultados de alta qualidade."
-	  },
-
-	  "Experience.skills": [
+	},
+	"Experience.skills": [
 		{
-		  "skills": [
-			"Java",
-			"HTML",
-			"Linux",
-			"JavaScript",
-			"Databases",
-			"Git",
-			"Full-Stack Development",
-			"Web Applications",
-			"Android Development",
-			"Metodologias Ágeis",
-			"Vue.js",
-			"Laravel",
-			"PHP",
-			"MySQL",
-			"Desenvolvimento de Software",
-			"PostgreSQL",
-			"Eclipse",
-			"Python",
-			"Teste Manual",
-			"Scrum",
-			"UML",
-			"Jira",
-			"POM",
-			"Hibernate",
-			"JPA",
-			"Postman",
-			"REST API",
-			"Cypress",
-			"BDD",
-			"Mocha"		
-		  ]
+			"skills": [
+				"Java",
+				"HTML",
+				"Linux",
+				"JavaScript",
+				"Databases",
+				"Git",
+				"Full-Stack Development",
+				"Web Applications",
+				"Android Development",
+				"Metodologias Ágeis",
+				"Vue.js",
+				"Laravel",
+				"PHP",
+				"MySQL",
+				"Desenvolvimento de Software",
+				"PostgreSQL",
+				"Eclipse",
+				"Python",
+				"Teste Manual",
+				"Scrum",
+				"UML",
+				"Jira",
+				"POM",
+				"Hibernate",
+				"JPA",
+				"Postman",
+				"REST API",
+				"Cypress",
+				"BDD",
+				"Mocha"
+			]
 		}
-	  ],
-
-	  "Experience.jobsTitles": {
+	],
+	"Experience.jobsTitles": {
 		"employmentType": "Tipo de Emprego",
 		"location": "Localização",
 		"locationType": "Tipo de Localização",
 		"skills": "Habilidades Adquiridas"
-	  },
-
-	  "Experience.jobs": [
+	},
+	"Experience.jobs": [
 		{
-		  "title": "Estoquista",
-		  "companyName": "Costco",
-		  "location": "Moncton, New Brunswick, Canadá",
-		  "startDateMonth": "Setembro",
-		  "startDateYear": "2023",
-		  "endDateMonth": "Agora",
-		  "endDateYear": "",
-		  "description": [
-			"Segue os padrões e práticas de merchandising. Alinha produtos, coleta e retorna itens extraviados, mantém níveis elevados de produtos em estoque",
-			"Comunica-se com supervisores e gerentes para determinar o plano e as prioridades de merchandising. Faz a lista de produtos a serem trazidos do estoque, pelo operador de empilhadeira, para serem estocados",
-			"Usa estilete para abrir caixas para exibição/acessibilidade do produto e para cortar barbante ou filme plástico de paletes. Embrulha ou amarra paletes e coloca etiquetas para retornar ao estoque",
-			"Estoca caixas abertas nas prateleiras. Move e posiciona paletes de mercadorias usando carrinho de palete manual. Empilha produtos de paletes parciais em paletes completos",
-			"Marca o número do produto em itens não marcados usando uma pistola de marcação. Observa e garante a sinalização correta dos produtos",
-			"Monta modelos de exibição, montando conforme necessário. Modifica exibições para manuseio seguro pelos membros, como fixar equipamentos pesados, proteger bordas de lâminas. Segue todos os procedimentos de segurança e segurança",
-			"Remove papelão solto e placas de proteção do chão. Limpa o chão de resíduos e varre. Remove paletes vazios do chão de vendas. Opera compactadora de papelão e compactador de lixo. Refaz embalagens soltas com máquina de filme plástico",
-			"Fornecer serviço aos membros de forma rápida e cortês. Ajuda os membros a carregar itens grandes em seus carrinhos, direciona os membros para produtos, compartilha conhecimento sobre o status dos produtos"
-		  ],
-		  "skills": ["Adaptabilidade", "Atenção aos detalhes", "Colaboração", "Resolução de Problemas", "Operação de Equipamentos de Manuseio", "Inspeção de Materiais", "Manutenção de Equipamentos", "Embalagem de Mercadorias", "Transporte de Carga"]
+			"title": "Estoquista",
+			"companyName": "Costco",
+			"location": "Moncton, New Brunswick, Canadá",
+			"startDateMonth": "Setembro",
+			"startDateYear": "2023",
+			"endDateMonth": "Agora",
+			"endDateYear": "",
+			"description": [
+				"Segue os padrões e práticas de merchandising. Alinha produtos, coleta e retorna itens extraviados, mantém níveis elevados de produtos em estoque",
+				"Comunica-se com supervisores e gerentes para determinar o plano e as prioridades de merchandising. Faz a lista de produtos a serem trazidos do estoque, pelo operador de empilhadeira, para serem estocados",
+				"Usa estilete para abrir caixas para exibição/acessibilidade do produto e para cortar barbante ou filme plástico de paletes. Embrulha ou amarra paletes e coloca etiquetas para retornar ao estoque",
+				"Estoca caixas abertas nas prateleiras. Move e posiciona paletes de mercadorias usando carrinho de palete manual. Empilha produtos de paletes parciais em paletes completos",
+				"Marca o número do produto em itens não marcados usando uma pistola de marcação. Observa e garante a sinalização correta dos produtos",
+				"Monta modelos de exibição, montando conforme necessário. Modifica exibições para manuseio seguro pelos membros, como fixar equipamentos pesados, proteger bordas de lâminas. Segue todos os procedimentos de segurança e segurança",
+				"Remove papelão solto e placas de proteção do chão. Limpa o chão de resíduos e varre. Remove paletes vazios do chão de vendas. Opera compactadora de papelão e compactador de lixo. Refaz embalagens soltas com máquina de filme plástico",
+				"Fornecer serviço aos membros de forma rápida e cortês. Ajuda os membros a carregar itens grandes em seus carrinhos, direciona os membros para produtos, compartilha conhecimento sobre o status dos produtos"
+			],
+			"skills": [
+				"Adaptabilidade",
+				"Atenção aos detalhes",
+				"Colaboração",
+				"Resolução de Problemas",
+				"Operação de Equipamentos de Manuseio",
+				"Inspeção de Materiais",
+				"Manutenção de Equipamentos",
+				"Embalagem de Mercadorias",
+				"Transporte de Carga"
+			]
 		},
 		{
-		  "title": "Analista de Sistemas",
-		  "companyName": "Cloud and More INC",
-		  "location": "Moncton, New Brunswick, Canadá",
-		  "startDateMonth": "Abril",
-		  "startDateYear": "2022",
-		  "endDateMonth": "Agosto",
-		  "endDateYear": "2023",
-		  "description": [
-			"Gerenciei um grupo de profissionais em sua jornada de aprendizado, incentivando o desenvolvimento contínuo de suas habilidades de teste e desenvolvimento",
-			"Desenvolvi e mantive ferramentas e processos de integração de dados",
-			"Acessei e utilizei dados com serviços SOAP",
-			"Desenvolvi com sucesso uma aplicação que integra dados do sistema Odoo com o painel Nextcloud, incluindo a criação de widgets e menus para configurar o acesso ao Odoo via API externa",
-			"Liderou a migração de um projeto CRM de Java 8 para Java 11 e de Tomcat 8.5 para Tomcat 9",
-			"Desenvolvi eficazmente um aplicativo Android que exibe a localização de veículos em um mapa"
-		  ],
-		  "skills": ["Java", "HTML", "Linux", "JavaScript", "Bancos de Dados", "Git", "Desenvolvimento Full-Stack", "Aplicações Web", "Desenvolvimento Android", "Metodologias Ágeis", "Vue.js", "Laravel", "PHP", "MySQL", "Java", "Desenvolvimento de Software", "PostgreSQL", "Eclipse"]
+			"title": "Analista de Sistemas",
+			"companyName": "Cloud and More INC",
+			"location": "Moncton, New Brunswick, Canadá",
+			"startDateMonth": "Abril",
+			"startDateYear": "2022",
+			"endDateMonth": "Agosto",
+			"endDateYear": "2023",
+			"description": [
+				"Gerenciei um grupo de profissionais em sua jornada de aprendizado, incentivando o desenvolvimento contínuo de suas habilidades de teste e desenvolvimento",
+				"Desenvolvi e mantive ferramentas e processos de integração de dados",
+				"Acessei e utilizei dados com serviços SOAP",
+				"Desenvolvi com sucesso uma aplicação que integra dados do sistema Odoo com o painel Nextcloud, incluindo a criação de widgets e menus para configurar o acesso ao Odoo via API externa",
+				"Liderou a migração de um projeto CRM de Java 8 para Java 11 e de Tomcat 8.5 para Tomcat 9",
+				"Desenvolvi eficazmente um aplicativo Android que exibe a localização de veículos em um mapa"
+			],
+			"skills": [
+				"Java",
+				"HTML",
+				"Linux",
+				"JavaScript",
+				"Bancos de Dados",
+				"Git",
+				"Desenvolvimento Full-Stack",
+				"Aplicações Web",
+				"Desenvolvimento Android",
+				"Metodologias Ágeis",
+				"Vue.js",
+				"Laravel",
+				"PHP",
+				"MySQL",
+				"Java",
+				"Desenvolvimento de Software",
+				"PostgreSQL",
+				"Eclipse"
+			]
 		},
 		{
-		  "title": "Desenvolvedor de Software",
-		  "companyName": "NTT DATA Business Solutions Brazil",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Maio",
-		  "startDateYear": "2020",
-		  "endDateMonth": "Fevereiro",
-		  "endDateYear": "2022",
-		  "description": [
-			"Desenvolvi e mantive aplicativos back-end usando Java",
-			"Acessei e utilizei dados com REST API, serviços SOAP e também o protocolo OData",
-			"Desenvolvi e mantive aplicativos front-end usando Angular JS, HTML e CSS",
-			"Construção e implantação de software usando Jira e Bamboo",
-			"Verifiquei bancos de dados e criei tabelas e visualizadores usando bancos de dados SQL Server e PostgreSQL"
-		  ],
-		  "skills": ["Casos de Teste", "Planejamento de Testes", "HTML", "Spring Framework", "SoapUI", "Spring MVC", "Bancos de Dados", "Git", "Desenvolvimento Full-Stack", "Aplicações Web", "MySQL", "Microsoft SQL Server", "PostgreSQL", "Eclipse", "REST API", "Spring Boot"]
+			"title": "Desenvolvedor de Software",
+			"companyName": "NTT DATA Business Solutions Brazil",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Maio",
+			"startDateYear": "2020",
+			"endDateMonth": "Fevereiro",
+			"endDateYear": "2022",
+			"description": [
+				"Desenvolvi e mantive aplicativos back-end usando Java",
+				"Acessei e utilizei dados com REST API, serviços SOAP e também o protocolo OData",
+				"Desenvolvi e mantive aplicativos front-end usando Angular JS, HTML e CSS",
+				"Construção e implantação de software usando Jira e Bamboo",
+				"Verifiquei bancos de dados e criei tabelas e visualizadores usando bancos de dados SQL Server e PostgreSQL"
+			],
+			"skills": [
+				"Casos de Teste",
+				"Planejamento de Testes",
+				"HTML",
+				"Spring Framework",
+				"SoapUI",
+				"Spring MVC",
+				"Bancos de Dados",
+				"Git",
+				"Desenvolvimento Full-Stack",
+				"Aplicações Web",
+				"MySQL",
+				"Microsoft SQL Server",
+				"PostgreSQL",
+				"Eclipse",
+				"REST API",
+				"Spring Boot"
+			]
 		},
 		{
-		  "title": "Analista de Testes",
-		  "companyName": "Velti Tecnologia",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Março",
-		  "startDateYear": "2014",
-		  "endDateMonth": "Outubro",
-		  "endDateYear": "2019",
-		  "description": [
-			"Realizei análises de testes com JUnit e JMeter",
-			"Trabalhei com automação de testes usando Selenium WebDriver",
-			"Implantei e gerenciei recursos para testes com precisão",
-			"Planejei os testes com prioridade",
-			"Facilitei a comunicação entre o help desk e a equipe de desenvolvimento",
-			"Criei e mantive o repositório de testes, incluindo suites e casos de testes"
-		  ],
-		  "skills": ["Testes de Cenário", "Cucumber", "Gherkin", "Casos de Teste", "Garantia de Qualidade de Software", "Planejamento de Testes", "HTML", "Testes de Software", "Jenkins", "JavaScript", "Selenium", "Spring MVC", "Bancos de Dados", "Git", "Aplicações Web", "Automação de Testes", "MySQL", "PostgreSQL", "JMeter", "Selenium WebDriver"]
+			"title": "Analista de Testes",
+			"companyName": "Velti Tecnologia",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Março",
+			"startDateYear": "2014",
+			"endDateMonth": "Outubro",
+			"endDateYear": "2019",
+			"description": [
+				"Realizei análises de testes com JUnit e JMeter",
+				"Trabalhei com automação de testes usando Selenium WebDriver",
+				"Implantei e gerenciei recursos para testes com precisão",
+				"Planejei os testes com prioridade",
+				"Facilitei a comunicação entre o help desk e a equipe de desenvolvimento",
+				"Criei e mantive o repositório de testes, incluindo suites e casos de testes"
+			],
+			"skills": [
+				"Testes de Cenário",
+				"Cucumber",
+				"Gherkin",
+				"Casos de Teste",
+				"Garantia de Qualidade de Software",
+				"Planejamento de Testes",
+				"HTML",
+				"Testes de Software",
+				"Jenkins",
+				"JavaScript",
+				"Selenium",
+				"Spring MVC",
+				"Bancos de Dados",
+				"Git",
+				"Aplicações Web",
+				"Automação de Testes",
+				"MySQL",
+				"PostgreSQL",
+				"JMeter",
+				"Selenium WebDriver"
+			]
 		},
 		{
-		  "title": "Testador de Software",
-		  "companyName": "M2sys Tecnologia e Serviços S/A",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Agosto",
-		  "startDateYear": "2013",
-		  "endDateMonth": "Março",
-		  "endDateYear": "2014",
-		  "description": [
-			"Realizei análises de testes principalmente direcionadas ao sistema do Banco HSBC",
-			"Elaborei e executei testes manuais"
-		  ],
-		  "skills": ["Testes de Cenário", "Casos de Teste", "HTML", "Spring Framework", "Testes de Software", "Selenium", "Bancos de Dados", "Testes Manuais", "Testes de Integração", "Selenium WebDriver"]
+			"title": "Testador de Software",
+			"companyName": "M2sys Tecnologia e Serviços S/A",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Agosto",
+			"startDateYear": "2013",
+			"endDateMonth": "Março",
+			"endDateYear": "2014",
+			"description": [
+				"Realizei análises de testes principalmente direcionadas ao sistema do Banco HSBC",
+				"Elaborei e executei testes manuais"
+			],
+			"skills": [
+				"Testes de Cenário",
+				"Casos de Teste",
+				"HTML",
+				"Spring Framework",
+				"Testes de Software",
+				"Selenium",
+				"Bancos de Dados",
+				"Testes Manuais",
+				"Testes de Integração",
+				"Selenium WebDriver"
+			]
 		},
 		{
-		  "title": "Testador de Software",
-		  "companyName": "NTT Data Corporation",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Maio",
-		  "startDateYear": "2013",
-		  "endDateMonth": "Julho",
-		  "endDateYear": "2013",
-		  "description": [
-			"Realizei análises de testes principalmente direcionadas ao sistema do Banco HSBC",
-			"Elaborei e executei testes manuais"
-		  ],
-		  "skills": ["Testes de Cenário", "Casos de Teste", "Garantia de Qualidade de Software", "HTML", "Git", "MySQL", "Selenium WebDriver"]
+			"title": "Testador de Software",
+			"companyName": "NTT Data Corporation",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Maio",
+			"startDateYear": "2013",
+			"endDateMonth": "Julho",
+			"endDateYear": "2013",
+			"description": [
+				"Realizei análises de testes principalmente direcionadas ao sistema do Banco HSBC",
+				"Elaborei e executei testes manuais"
+			],
+			"skills": [
+				"Testes de Cenário",
+				"Casos de Teste",
+				"Garantia de Qualidade de Software",
+				"HTML",
+				"Git",
+				"MySQL",
+				"Selenium WebDriver"
+			]
 		},
 		{
-		  "title": "Testador de Software Jr.",
-		  "companyName": "Prime Control",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Outubro",
-		  "startDateYear": "2012",
-		  "endDateMonth": "Março",
-		  "endDateYear": "2013",
-		  "description": [
-			"Trabalhei com análises de testes principalmente direcionadas ao sistema do Grupo Boticário",
-			"Além disso, trabalhei com testes de carga usando o JMeter e testes manuais em geral"
-		  ],
-		  "skills": ["Testes de Cenário", "Casos de Teste", "Garantia de Qualidade de Software", "Planejamento de Testes", "HTML", "Testes de Software", "Selenium", "Testes de Aceitação do Usuário", "Selenium WebDriver"]
+			"title": "Testador de Software Jr.",
+			"companyName": "Prime Control",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Outubro",
+			"startDateYear": "2012",
+			"endDateMonth": "Março",
+			"endDateYear": "2013",
+			"description": [
+				"Trabalhei com análises de testes principalmente direcionadas ao sistema do Grupo Boticário",
+				"Além disso, trabalhei com testes de carga usando o JMeter e testes manuais em geral"
+			],
+			"skills": [
+				"Testes de Cenário",
+				"Casos de Teste",
+				"Garantia de Qualidade de Software",
+				"Planejamento de Testes",
+				"HTML",
+				"Testes de Software",
+				"Selenium",
+				"Testes de Aceitação do Usuário",
+				"Selenium WebDriver"
+			]
 		},
 		{
-		  "title": "Desenvolvedor de Software Jr.",
-		  "companyName": "Sabro Tecnologia Int. Ltda.",
-		  "location": "Curitiba, Paraná, Brasil",
-		  "startDateMonth": "Fevereiro",
-		  "startDateYear": "2011",
-		  "endDateMonth": "Outubro",
-		  "endDateYear": "2012",
-		  "description": [
-			"Desenvolvimento de software em Java com MySQL",
-			"Além disso, trabalhei com testes de carga usando o JMeter e testes manuais em geral"
-		  ],
-		  "skills": ["MySQL", "Selenium WebDriver"]
+			"title": "Desenvolvedor de Software Jr.",
+			"companyName": "Sabro Tecnologia Int. Ltda.",
+			"location": "Curitiba, Paraná, Brasil",
+			"startDateMonth": "Fevereiro",
+			"startDateYear": "2011",
+			"endDateMonth": "Outubro",
+			"endDateYear": "2012",
+			"description": [
+				"Desenvolvimento de software em Java com MySQL",
+				"Além disso, trabalhei com testes de carga usando o JMeter e testes manuais em geral"
+			],
+			"skills": [
+				"MySQL",
+				"Selenium WebDriver"
+			]
 		}
-	  ],
-
-	  "about_education": [
+	],
+	"about_education": [
 		{
-		  "title": "Pós-Graduação em Engenharia de Software",
-		  "description": "Universidade Federal do Paraná 2013 - 2014"
+			"title": "Pós-Graduação em Engenharia de Software",
+			"description": "Universidade Federal do Paraná 2013 - 2014"
 		},
 		{
-		  "title": "Bacharelado em Sistemas de Informação",
-		  "description": "União Dinâmica de Faculdades Cataratas 2006 - 2010"
+			"title": "Bacharelado em Sistemas de Informação",
+			"description": "União Dinâmica de Faculdades Cataratas 2006 - 2010"
 		}
-	  ],
-
-	  "about_languages": [
+	],
+	"about_languages": [
 		{
-		  "title": "Inglês",
-		  "description": "Avançado"
+			"title": "Inglês",
+			"description": "Avançado"
 		},
 		{
-		  "title": "Espanhol",
-		  "description": "Fluente"
+			"title": "Espanhol",
+			"description": "Fluente"
 		},
 		{
-		  "title": "Português",
-		  "description": "Nativo"
+			"title": "Português",
+			"description": "Nativo"
 		}
-	  ],
-
-	  "about_courses": [
+	],
+	"about_courses": [
 		{
-			"title": "Applied Internet of Things (IoT) - BCIT - Learning HUB (online) - 8 semanas"
+			"title": "Learn to build an e-commerce app with .Net Core and Angular - Udemy (online) 34.5 horas"
 		},
 		{
-			"title": "Mobile Automation with Appium 2.0 and WebdriverIO - 2023 - Udemy (online) 9.5 horas"
+			"title": "C# .NET Core 8 with MS SQL Complete Beginner to Master 2024 - Udemy (online) 24 horas"
 		},
 		{
-			"title": "Cypress: Web Automation Testing from Zero to Hero) - Udemy (online) 10 horas"
+			"title": "Asana - Gerenciamento de Projetos - Intermediário ao Avançado - Udemy (online) 3 horas"
 		},
 		{
-		  "title": "Selenium Python with Behave BDD (Basic + Advance + Architect) - Udemy (online) 23.5 horas"
+			"title": "Azure DevOps Boards para Gerentes de Projetos/Analistas/Desenvolvedores - Udemy (online) 1.5 horas"
 		},
 		{
-		  "title": "Learn Cucumber BDD with Java - MasterClass Selenium Framework - Udemy (online) 12 horas"
+			"title": "Assistentes OpenAI com OpenAI Python API - Udemy (online) 4 horas"
 		},
 		{
-		  "title": "Jetpack, Architecture and More - Advanced Android Bootcamp 2023 - Udemy (online) 37.5 horas"
+			"title": "Internet das Coisas (IoT) Aplicada - BCIT - Learning HUB (online) - 8 semanas"
 		},
 		{
-		  "title": "Fullstack Angular e Spring Curso - Algaworks (online) 120 horas"
+			"title": "Automação Móvel com Appium 2.0 e WebdriverIO - 2023 - Udemy (online) 9.5 horas"
 		},
 		{
-		  "title": "Fullstack Angular e Spring Course - Algaworks (online) 120 horas"
+			"title": "Cypress: Testes de Automação Web de Zero a Herói - Udemy (online) 10 horas"
+		},
+		{
+			"title": "Selenium Python com Behave BDD (Básico + Avançado + Arquiteto) - Udemy (online) 23.5 horas"
+		},
+		{
+			"title": "Aprenda Cucumber BDD com Java - MasterClass Selenium Framework - Udemy (online) 12 horas"
+		},
+		{
+			"title": "Jetpack, Arquitetura e Mais - Bootcamp Avançado de Android 2023 - Udemy (online) 37.5 horas"
+		},
+		{
+			"title": "Curso Fullstack Angular e Spring - Algaworks (online) 120 horas"
 		}
-	  ],
-
-
-
-		"about_project_titles": {
-		  "language": "Idiomas",
-		  "tool": "Ferramentas"
-		},
-	  
-		"about_projects": [
-		  {
+	],
+	"about_project_titles": {
+		"language": "Idiomas",
+		"tool": "Ferramentas"
+	},
+	"about_projects": [
+		{
 			"titleProject": "Sistema Odoo",
 			"companyName": "Cloud and More",
 			"period": "Abril de 2022 / Agosto de 2023",
 			"description": "No papel de Analista de Sistemas, liderei com sucesso a implementação de um ERP chamado Sistema Odoo, abrangendo todo o ciclo de vida do software. Além disso, na minha capacidade de desenvolvedor, contribuí ativamente para a manutenção do código, resolvendo eficazmente problemas à medida que surgiam.",
-			"languages": ["Python", "PostgreSQL"],
-			"tools": ["PyCharm", "Visual Studio Code", "PgAdmin"]
-		  },
-		  {
+			"languages": [
+				"Python",
+				"PostgreSQL"
+			],
+			"tools": [
+				"PyCharm",
+				"Visual Studio Code",
+				"PgAdmin"
+			]
+		},
+		{
 			"titleProject": "Integrador",
 			"companyName": "Cloud and More",
 			"period": "Maio de 2020 / Fevereiro de 2022",
 			"description": "No papel de Desenvolvedor de Software, destaquei-me na criação e manutenção das funcionalidades de um projeto chamado Integrador. Este projeto tinha como foco integrar um sistema de cliente externo com o sistema interno SAP Business One. Além disso, também contribuí para documentar processos, explicar a linguagem de programação e detalhar seus métodos.",
-			"languages": ["Java", "RestAPI", "Spring Boot", "MySQL"],
-			"tools": ["Eclipse", "MySQL Workbench"]
-		  },
-		  {
+			"languages": [
+				"Java",
+				"RestAPI",
+				"Spring Boot",
+				"MySQL"
+			],
+			"tools": [
+				"Eclipse",
+				"MySQL Workbench"
+			]
+		},
+		{
 			"titleProject": "Teste de Automação de Horário do Relógio",
 			"companyName": "Velti Tecnologia",
 			"period": "Março de 2014 / Outubro de 2019",
 			"description": "No papel de Garantia de Qualidade, durante meu tempo na Velti Tecnologia (2014 - 2019), desempenhei um papel fundamental na garantia da qualidade e desempenho de Sistemas de Ponto Eletrônico. Uma das minhas realizações notáveis foi nos testes de desempenho, onde utilizei ferramentas como JUnit e JMeter para testar rigorosamente o desempenho do sistema em diferentes cenários. Isso envolveu simular várias cargas de usuários para identificar possíveis gargalos e áreas para otimização. Além dos testes de desempenho, também conduzi testes de usabilidade e funcionais usando o Selenium WebDriver. Isso me permitiu avaliar a experiência do usuário e garantir que as funcionalidades do sistema atendessem às especificações necessárias. Para apoiar esses esforços de teste, criei e mantive um repositório abrangente de testes. Isso incluiu o desenvolvimento de conjuntos de testes e casos de teste que abrangiam diversos aspectos dos sistemas. Trabalhei em estreita colaboração com a equipe de desenvolvimento para entender os detalhes técnicos e nuances, o que me ajudou a projetar estratégias de teste eficazes. Minha experiência na Velti Tecnologia me proporcionou experiência prática na identificação de soluções de TI por meio de metodologias de teste rigorosas. Ao longo de cinco anos, aprimorei minha capacidade de colaborar com equipes multifuncionais, analisar requisitos técnicos e fornecer recomendações com base nos resultados dos testes. Por meio do meu trabalho, desenvolvi uma compreensão profunda da importância de alinhar as soluções de TI com os objetivos de negócios, garantindo que a tecnologia não apenas funcione corretamente, mas também agregue valor às operações do cliente.",
-			"languages": ["Selenium WebDriver", "JUnit", "Java", "MySQL"],
-			"tools": ["Eclipse", "MySQL Workbench"]
-		  },
-		  {
+			"languages": [
+				"Selenium WebDriver",
+				"JUnit",
+				"Java",
+				"MySQL"
+			],
+			"tools": [
+				"Eclipse",
+				"MySQL Workbench"
+			]
+		},
+		{
 			"titleProject": "Portfólio Maicon Fang",
 			"companyName": "Maicon Fang",
 			"period": "Março de 2020 / AGORA",
 			"description": "Criei meu portfólio com base em um curso que fiz na AlgaWorks. Inicialmente, tinha apenas a página inicial e um link para o sistema que chamava uma API desenvolvida em Java e Spring Boot. No entanto, expandi o sistema criando novas páginas e chamadas de API para demonstrar meu conhecimento tanto no desenvolvimento front-end quanto no back-end.",
-			"languages": ["Java", "Spring Boot", "RestAPI", "Angular CLI"],
-			"tools": ["Eclipse", "MySQL Workbench", "Visual Studio Code"]
-		  }
-		],
-	  
-	
-
-
+			"languages": [
+				"Java",
+				"Spring Boot",
+				"RestAPI",
+				"Angular CLI"
+			],
+			"tools": [
+				"Eclipse",
+				"MySQL Workbench",
+				"Visual Studio Code"
+			]
+		}
+	],
 	"CONTACT": {
 		"CONTACT_TITLE": "Contatos:",
 		"CONTACT_DESCRIPTION_1.1": "maicon.fang@gmail.com",
 		"CONTACT_DESCRIPTION_1.2": "https://www.linkedin.com/in/maicon-alexander-illes-fang-4673242a/",
 		"CONTACT_DESCRIPTION_1.3": "https://github.com/maiconfang"
 	},
-
 	"LOGIN": {
 		"ACCESS_SYSTEM": "Entrar no Sistema",
 		"LBL_LOGIN": "Login",
@@ -317,15 +441,13 @@
 		"ENTER": "Entrar",
 		"FORGOT_PASSWORD": "Esqueci minha senha"
 	},
-
 	"FORM_VALIDATIONS": {
 		"REQUIRED": " é obrigatório",
 		"MIN_LENGTH": " precisa ter no mínimo ",
-		"MAX_LENGTH":  " pode ter no máximo ",
+		"MAX_LENGTH": " pode ter no máximo ",
 		"CHARACTERS": " caracteres",
 		"EMAIL": " precisa ter o @"
 	},
-
 	"NAV_BAR": {
 		"SYSTEM_NAME": "Fazenda Fang",
 		"OPTION": "Opções",
@@ -333,17 +455,16 @@
 		"SETTINGS": " Configurações",
 		"LOGOUT": " Sair"
 	},
-
 	"SIDE_BAR": {
-		"MODEL" : "Modelo",
+		"MODEL": "Modelo",
 		"STATE": "Estado",
-		"CITY" : "Cidade",
-		"EMPLOYEE" : "Colaborador",
-		"GROUP" : "Grupo",
-		"GROUP_PERMISSION" : "Grupo Permissão",
-		"USER" : "Usuário",
-		"BRAND" : "Marca",
-		"VEHICLE" : "Veículo",
+		"CITY": "Cidade",
+		"EMPLOYEE": "Colaborador",
+		"GROUP": "Grupo",
+		"GROUP_PERMISSION": "Grupo Permissão",
+		"USER": "Usuário",
+		"BRAND": "Marca",
+		"VEHICLE": "Veículo",
 		"SEE_POSTS": "Ver Registros",
 		"ADD_MODEL": "Adicionar Modelo",
 		"ADD_STATE": "Adicionar Estado",
@@ -355,9 +476,8 @@
 		"ADD_BRAND": "Adicionar Marca",
 		"ADD_VEHICLE": "Adicionar Veículo"
 	},
-
 	"CRUD": {
-		"SAVE" : "Salvar",
+		"SAVE": "Salvar",
 		"BACK": "Voltar para pesquisa",
 		"NEW": "Criar registro",
 		"EXPORT": "Exportar",
@@ -377,7 +497,6 @@
 		"MSG_SUCCESS_CREATED": "Criado com sucesso",
 		"MSG_SUCCESS_UPDATED": "Atualizado com sucesso"
 	},
-
 	"MODEL": {
 		"SEARCH_COLUMN_NAME": "Modelo",
 		"MODEL_LABEL_FILTER": "Nome do modelo",
@@ -386,7 +505,6 @@
 		"TITLE_EDIT": "Edição do Modelo",
 		"TITLE_NEW": "Novo Modelo"
 	},
-
 	"USER": {
 		"SEARCH_COLUMN_NAME": "Usuário",
 		"SEARCH_COLUMN_EMAIL": "Login / E-mail",
@@ -398,7 +516,6 @@
 		"TITLE_EDIT": "Edição do Usuário",
 		"TITLE_NEW": "Novo Usuário"
 	},
-
 	"STATE": {
 		"SEARCH_COLUMN_NAME": "Estado",
 		"SEARCH_COLUMN_FS": "Sigla do estado",
@@ -411,7 +528,6 @@
 		"TOOLTIP_STATE": "Nome do estado",
 		"TOOLTIP_FS": "Sigla do estado"
 	},
-
 	"CITY": {
 		"SEARCH_COLUMN_NAME": "Cidade",
 		"SEARCH_COLUMN_STATE": "Estado",
@@ -426,7 +542,6 @@
 		"TOOLTIP_CITY": "Nome da cidade",
 		"TOOLTIP_STATE": "Nome do estado"
 	},
-
 	"GROUP": {
 		"SEARCH_COLUMN_NAME": "Grupo",
 		"GROUP_LABEL_FILTER": "Nome do grupo",
@@ -436,7 +551,6 @@
 		"TITLE_NEW": "Novo Grupo",
 		"TOOLTIP_GROUP": "Nome do grupo"
 	},
-
 	"EMPLOYEE": {
 		"SEARCH_COLUMN_NAME": "Colaborador",
 		"SEARCH_COLUMN_RG": "RG",
@@ -459,7 +573,6 @@
 		"LABEL_CITY": "Cidade",
 		"TOOLTIP_CITY": "Nome da cidade"
 	},
-
 	"BRAND": {
 		"SEARCH_COLUMN_NAME": "Marca",
 		"SEARCH_COLUMN_MODEL": "Modelo",
@@ -474,7 +587,6 @@
 		"TOOLTIP_BRAND": "Nome da marca",
 		"TOOLTIP_MODEL": "Nome do modelo"
 	},
-
 	"VEHICLE": {
 		"SEARCH_COLUMN_COLOR": "Cor",
 		"SEARCH_COLUMN_YEAR": "Ano",
@@ -502,13 +614,11 @@
 		"TOOLTIP_LICENSE_PLATE": "Placa do veículo",
 		"TOOLTIP_BRAND": "Nome da marca"
 	},
-
 	"PAGINATOR": {
 		"BACK": "Voltar",
 		"NEXT": "Avançar"
 	},
-
-	"INTERCEPTOR":{
+	"INTERCEPTOR": {
 		"STATUS_400": "Usuário ou senha inválido",
 		"STATUS_401": "Aplicação sem permição de acesso",
 		"TOKEN_EXPIRED": "Sessão expirada",
@@ -518,7 +628,6 @@
 		"STATUS_500": "Erro ao processar sua requisição",
 		"STATUS_DEFAULT": "Servidor não encontrado"
 	},
-
 	"FARM_STATE_SELECT": {
 		"BUTTON_SELECT_STATE": "Selecione o Estado",
 		"TOOLTIP_BUTTON_SELECT_STATE": "Selecione o estado",
@@ -536,7 +645,6 @@
 		"TOOLTIP_FS": "UF",
 		"PLACE_HOLDER_NAME": "Nome do estado"
 	},
-
 	"FARM_CITY_SELECT": {
 		"BUTTON_SELECT_CITY": "Selecione uma Cidade",
 		"TOOLTIP_BUTTON_SELECT_CITY": "Selecione a cidade",
@@ -552,7 +660,6 @@
 		"TOOLTIP_NAME": "Nome da cidade",
 		"PLACE_HOLDER_NAME": "Nome da cidade"
 	},
-
 	"FARM_MODEL_SELECT": {
 		"BUTTON_SELECT_MODEL": "Selecione um Modelo",
 		"TOOLTIP_BUTTON_SELECT_MODEL": "Selecione um modelo",
@@ -568,7 +675,6 @@
 		"TOOLTIP_NAME": "Nome do modelo",
 		"PLACE_HOLDER_NAME": "Nome do modelo"
 	},
-
 	"FARM_BRAND_SELECT": {
 		"BUTTON_SELECT_BRAND": "Selecione uma Marca",
 		"TOOLTIP_BUTTON_SELECT_BRAND": "Selecione a marca",
@@ -584,7 +690,6 @@
 		"TOOLTIP_NAME": "Nome da marca",
 		"PLACE_HOLDER_NAME": "Nome da marca"
 	},
-
 	"GROUP_PERMISSION": {
 		"SEARCH_COLUMN_NAME": "Grupo Permissão",
 		"GROUP_PERMISSION_LABEL_FILTER": "Nome do grupo permissão",
@@ -595,7 +700,4 @@
 		"GROUP_PERMISSION_LABEL_GROUP": "Grupo",
 		"GROUP_PERMISSION_SELECT_GROUP": "Selecione um grupo"
 	}
-
-
 }
-  
