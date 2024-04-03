@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 import { FormDebugComponent } from './form-debug/form-debug.component';
 import { FormMessagesErroComponent } from './form-messages-erro/form-messages-erro.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { NgxMaskModule } from 'ngx-mask';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TranslateModule } from '@ngx-translate/core';
@@ -33,7 +32,6 @@ import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
     CommonModule,
     ReactiveFormsModule,
     RouterModule,
-    NgxMaskModule.forRoot(),
     AlertModule.forRoot(),
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
@@ -55,7 +53,6 @@ import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
     FormDebugComponent,
     FormMessagesErroComponent,
     RouterModule,
-    NgxMaskModule,
     AlertModule,
     BsDropdownModule,
     TranslateModule,

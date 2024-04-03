@@ -57,7 +57,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 
   ],
   providers: [ MessageToastService ],
-  bootstrap: [AppComponent],
-  entryComponents: [ DialogConfirmationComponent ]
+  bootstrap: [AppComponent]  
 })
 export class AppModule { }
