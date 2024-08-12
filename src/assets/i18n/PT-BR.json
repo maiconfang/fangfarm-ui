@@ -7,8 +7,7 @@
 		"AUTOMATION": "AUTOMATIZACAO"
 	},
 	"HOME": {
-		"PRESENTATION": "Olá, meu nome é Maicon Fang e sou um Senior Desenvolvedor de Software e Analista de Testes.",
-		"ABSTRACT": "Sou um habilidoso Desenvolvedor de Software com mais de 6 anos de experiência, proficiente em uma ampla gama de tecnologias, incluindo Angular, Java, Spring Boot, PHP, Vue.js, Laravel e bancos de dados como MySQL, SQL Server e PostgreSQL. Além disso, tenho experiência prática com Selenium WebDriver, Cypress, BDD, Oracle, JUnit e HTML. Minha expertise abrange o desenvolvimento de front-end e back-end, a construção e implantação de software, bem como a resolução de problemas. Possuo um diploma de Bacharel em Sistemas de Informação e uma Pós-Graduação em Engenharia de Software, consolidando ainda mais meu conhecimento e capacidades. Com uma natureza dedicada, comunicativa e extrovertida, estou comprometido em fornecer resultados excepcionais."
+		"PRESENTATION": "Oi, meu nome é Maicon Fang e sou um Desenvolvedor de Software Sênior | QA - Garantia de Qualidade"		
 	},
 	"about_tabs": {
 		"tab_1": "Sobre Mim",
@@ -19,7 +18,7 @@
 		"tab_6": "Cursos"
 	},
 	"about_info": {
-		"description": "Sou um habilidoso Desenvolvedor de Software com mais de 6 anos de experiência, proficiente em uma ampla gama de tecnologias, incluindo Angular, Java, Spring Boot, PHP, Vue.js, Laravel e bancos de dados como MySQL, SQL Server e PostgreSQL. Além disso, tenho experiência prática com HP Quality Center, Selenium WebDriver, BDD, Oracle, JUnit e HTML. Minha expertise abrange o desenvolvimento front-end e back-end, construção e implantação de software, bem como resolução de problemas. Possuo um diploma de bacharel em Sistemas de Informação e uma pós-graduação em Engenharia de Software, o que solidifica ainda mais meu conhecimento e capacidades. Com uma natureza dedicada, comunicativa e extrovertida, estou comprometido em entregar resultados de alta qualidade."
+		"description": "Sou um profissional de Garantia de Qualidade com mais de 7 anos de experiência em automação de testes e mais de 3 anos em desenvolvimento de software. Especializo-me na criação de frameworks robustos de automação de testes usando ferramentas como Selenium WebDriver, Cypress e REST Assured. Minha expertise técnica abrange diversas linguagens de programação e tecnologias, incluindo Java, Python, C#, Angular e Spring Framework. Tenho um histórico comprovado na liderança de projetos de integração e migração, garantindo a funcionalidade perfeita dos sistemas e a precisão dos dados. Possuo um Bacharelado em Sistemas de Informação e um Mestrado em Engenharia de Software, que aprimoraram ainda mais minha capacidade de entregar soluções de software de alta qualidade. Meu compromisso com a excelência e a capacidade de colaborar com equipes fazem de mim um ativo valioso em qualquer ambiente de QA ou desenvolvimento."
 	},
 	"Experience.skills": [
 		{
