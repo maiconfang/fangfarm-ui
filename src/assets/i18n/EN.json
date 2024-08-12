@@ -7,7 +7,7 @@
 		"AUTOMATION": "AUTOMATION"
 	},
 	"HOME": {
-		"PRESENTATION": "Hi, my name is Maicon Fang and I am a Sr. Software Developer | QA - Quality Assurance"
+		"PRESENTATION": "Hi, my name is Maicon Fang, and I am a Senior QA Engineer | Test Automation Specialist"
 	},
 	"about_tabs": {
 		"tab_1": "About Me",
@@ -18,7 +18,7 @@
 		"tab_6": "Courses"
 	},
 	"about_info": {
-		"description": "I am a skilled Software Developer with over 6 years of experience, proficient in a wide range of technologies including Angular, Java, Spring Boot, PHP, Vue.js, Laravel, and databases like MySQL, SQL Server, and PostgreSQL. Additionally, I have hands-on experience with Selenium WebDriver, Cypress, BDD, Oracle, JUnit, and HTML. My expertise encompasses front-end and back-end development, software build and deployment, as well as troubleshooting. I hold a Bachelor's Degree in Information Systems and a Post-Graduation in Software Engineering, further solidifying my knowledge and capabilities. With a dedicated, communicative, and outgoing nature, I am committed to delivering exceptional results."
+		"description": "I am an experienced Quality Assurance professional with over 7 years in test automation and more than 3 years in software development. I specialize in creating robust test automation frameworks using tools such as Selenium WebDriver, Cypress, and REST Assured. My technical expertise spans various programming languages and technologies, including Java, Python, C#, Angular, and Spring Framework. I have a proven track record in leading integration and migration projects, ensuring seamless system functionality and data accuracy. I hold a Bachelor's Degree in Information Systems and a Master's Degree in Software Engineering, which have further enhanced my ability to deliver high-quality software solutions. My commitment to excellence and ability to collaborate across teams make me a valuable asset in any QA or development environment."
 	},
 	"Experience.skills": [
 		{
