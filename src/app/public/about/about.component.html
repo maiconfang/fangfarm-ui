@@ -12,18 +12,32 @@
         </tab>
 
         <tab heading="{{ 'about_tabs.tab_2' | translate }}" id="tab2" class="text">
-
-          <div class="form-row">
-
-            <div *ngFor='let skills of "Experience.skills" | translate; let i = index'>
+          <div class="row">
+            <div class="col-md-4">
               <ul>
-                <li *ngFor="let skills of skills.skills">{{ skills }}</li>
+                <ng-container *ngFor="let skill of skills; let i = index">
+                  <li *ngIf="i % 3 === 0">{{ skill }}</li>
+                </ng-container>
               </ul>
             </div>
-
+            <div class="col-md-4">
+              <ul>
+                <ng-container *ngFor="let skill of skills; let i = index">
+                  <li *ngIf="i % 3 === 1">{{ skill }}</li>
+                </ng-container>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <ng-container *ngFor="let skill of skills; let i = index">
+                  <li *ngIf="i % 3 === 2">{{ skill }}</li>
+                </ng-container>
+              </ul>
+            </div>
           </div>
-
         </tab>
+        
+        
 
         <!-- Experience -->
         <tab heading="{{ 'about_tabs.tab_3' | translate }}" id="tab3" class="text">

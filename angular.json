@@ -32,10 +32,9 @@
             ],
             "styles": [
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "src/custom-theme.scss",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/ngx-toastr/toastr.css",
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "scripts": []
           },
